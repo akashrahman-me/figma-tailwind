@@ -2,6 +2,7 @@ from lib.classes_gen.tailwind_config_serialize import tailwind_config_serialize
 from lib.utils.extract_valid_property import extract_valid_property
 import json
 import css_parser
+from lib.utils.relevant_styles import relevant_style
 
 with open('config.json', 'r') as file:
     config = json.load(file)
@@ -15,9 +16,8 @@ with open('storage/tailwind_default_theme.json', 'r') as file:
 with open('storage/theme_colors.json', 'r') as file:
     theme_colors = json.load(file)
 
-with open(config['css_parser_URI'], 'r') as file:
-    css_string = file.read()
-    css_string = extract_valid_property(css_string)
+_, css_string = relevant_style()
+css_string = extract_valid_property(css_string)
 
 combined_config = {
     **tailwind_config,

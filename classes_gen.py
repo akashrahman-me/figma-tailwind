@@ -20,23 +20,31 @@ from lib.classes_gen.generators.text_align import get_text_align_class_from_text
 from lib.classes_gen.generators.padding import get_padding_class_from_line_padding_value
 from lib.classes_gen.generators.text_transform import get_text_transform
 
+from lib.utils.relevant_styles import relevant_style
+relevant, _ = relevant_style()
+
 
 def css_to_tailwind(css):
     tailwind_classes = ""
     style._setCssText(css)
 
     properties = [
-        ['color', get_color_class_from_color_value],
-        ['border-radius', get_border_radius_class_from_border_radius_value],
-        ['text-align', get_text_align_class_from_text_align_value],
-        ['font-style', get_font_style_class_from_font_style_value],
-        ['background-color', get_background_color_class_from_background_color_value],
-        ['border', get_border_class_from_border_value],
+        # Typography
         ['font-weight', get_font_weight_class_from_font_weight_value],
         ['font-family', get_font_family_class_from_font_family_value],
-        ['box-shadow', get_box_shadow_class_from_box_shadow_value],
-        ['padding', get_padding_class_from_line_padding_value],
+        ['font-style', get_font_style_class_from_font_style_value],
+        ['text-align', get_text_align_class_from_text_align_value],
         ['text-transform', get_text_transform],
+
+        # Color
+        ['color', get_color_class_from_color_value],
+        ['background-color', get_background_color_class_from_background_color_value],
+        ['box-shadow', get_box_shadow_class_from_box_shadow_value],
+
+        # Layout
+        ['border-radius', get_border_radius_class_from_border_radius_value],
+        ['border', get_border_class_from_border_value],
+        # ['padding', get_padding_class_from_line_padding_value],
     ]
 
     for property, get_class in properties:
@@ -54,20 +62,20 @@ def css_to_tailwind(css):
                                                                       letter_spacing_value,
                                                                       line_height_value
                                                                       )
-        if tailwind_font_size not in config["releven_class"]:
+        if tailwind_font_size not in relevant:
             tailwind_classes += f" {tailwind_font_size}"
 
         if style.getProperty('line-height'):
             tailwind_line_height = get_line_height_class_from_line_height_value(
                 line_height_value, font_size_value)
 
-            if tailwind_line_height not in config["releven_class"]:
+            if tailwind_line_height not in relevant:
                 tailwind_classes += f" {tailwind_line_height}"
 
         if style.getProperty('letter-spacing'):
             tailwind_letter_spacing = get_letter_spacing_class_from_letter_spacing_value(
                 letter_spacing_value, font_size_value)
-            if tailwind_letter_spacing not in config["releven_class"]:
+            if tailwind_letter_spacing not in relevant:
                 tailwind_classes += f" {tailwind_letter_spacing}"
 
     return tailwind_classes.strip()

@@ -1,9 +1,11 @@
 from lib.classes_gen.helper.combined_config import config
 from lib.classes_gen.helper.combined_config import style
+from lib.utils.relevant_styles import relevant_style
 
 def releven_valid(t_class):
     result = ""
-    if t_class not in config["releven_class"]:
+    relevant, _ = relevant_style()
+    if t_class not in relevant:
         result = f" {t_class}"
     return result
 
