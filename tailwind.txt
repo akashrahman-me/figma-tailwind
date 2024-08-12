@@ -1,0 +1,6 @@
+color: #FFF;
+font-family: Futura PT;
+font-size: 197px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;

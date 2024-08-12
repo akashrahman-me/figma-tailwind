@@ -1,0 +1,35 @@
+{
+   "colors": {
+      "black": {"0": "#000000"},
+      "gray": {"50": "#ffffff", "900": "#0D1B2A"},
+      "neutral": {"700": "#424242"}
+   },
+   "fontSize": {
+      "xs": ["12px", {"lineHeight": "2.17em"}],
+      "sm": ["14px", {"lineHeight": "1.57em"}],
+      "md": ["16px", {}],
+      "base": ["18px", {"lineHeight": "1.44em"}],
+      "lg": ["20px", {"lineHeight": "2em"}],
+      "xl": ["24px", {"lineHeight": "0.83em"}],
+      "3xl": ["32px", {}],
+      "4xl": ["40px", {"lineHeight": "0.65em"}],
+      "5xl": ["48px", {}],
+      "6xl": ["80px", {}]
+   },
+   "shadows": {
+      "sm": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+      "md": "0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05)"
+   },
+   "fontFamily": {
+      "source-sans-pro": ["'Source Sans Pro'", "...fontFamily.sans"],
+      "ubuntu": ["'Ubuntu'", "...fontFamily.sans"],
+      "inter": ["'Inter'", "...fontFamily.sans"],
+      "roboto": ["'Roboto'", "...fontFamily.sans"]
+   },
+   "fontWeights": [
+      {"name": "Source Sans Pro", "weight": ["400", "600", "700"]},
+      {"name": "Ubuntu", "weight": ["300", "400", "500"]},
+      {"name": "Inter", "weight": ["400"]},
+      {"name": "Roboto", "weight": ["300", "500", "700"]}
+   ]
+}

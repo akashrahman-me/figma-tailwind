@@ -1,0 +1,275 @@
+<div style="width: 1728px; height: 3635px; position: relative; background: radial-gradient(54.05% 100.03% at 56.35% -389462.59%, #E8F9FD 0%, #E0E1DD 100%)">
+  <div style="width: 783px; height: 318px; left: 70px; top: 1169px; position: absolute">
+    <div style="width: 783px; left: 0px; top: 0px; position: absolute; color: black; font-size: 48px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word">Our Services</div>
+    <div style="width: 208px; height: 74px; left: 0px; top: 100px; position: absolute">
+      <div style="width: 67px; height: 74px; left: 0px; top: 0px; position: absolute; background: #415A77"></div>
+      <div style="width: 125px; left: 83px; top: 27px; position: absolute; color: black; font-size: 24px; font-family: Ubuntu; font-weight: 500; line-height: 20px; word-wrap: break-word">Boat Trips</div>
+    </div>
+    <div style="width: 236px; height: 74px; left: 402px; top: 100px; position: absolute">
+      <div style="width: 83px; height: 74px; left: 0px; top: 0px; position: absolute; background: #415A77"></div>
+      <div style="width: 125px; left: 111px; top: 27px; position: absolute; color: black; font-size: 24px; font-family: Ubuntu; font-weight: 500; line-height: 20px; word-wrap: break-word">Transfer</div>
+    </div>
+    <div style="width: 236px; height: 74px; left: 402px; top: 244px; position: absolute">
+      <div style="width: 74px; height: 74px; left: 0px; top: 0px; position: absolute; background: #415A77"></div>
+      <div style="width: 125px; left: 111px; top: 27px; position: absolute; color: black; font-size: 24px; font-family: Ubuntu; font-weight: 500; line-height: 20px; word-wrap: break-word">Tours</div>
+    </div>
+    <div style="width: 208px; height: 74px; left: 0px; top: 244px; position: absolute">
+      <div style="width: 62px; height: 74px; left: 0px; top: 0px; position: absolute; background: #415A77"></div>
+      <div style="width: 125px; left: 83px; top: 27px; position: absolute; color: black; font-size: 24px; font-family: Ubuntu; font-weight: 500; line-height: 20px; word-wrap: break-word">Bus rental</div>
+    </div>
+  </div>
+  <div style="width: 1728px; height: 1118px; left: 0px; top: -1px; position: absolute">
+    <div style="width: 114px; height: 114px; left: 70px; top: 21px; position: absolute">
+      <div style="width: 114px; height: 114px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 8px"></div>
+      <div style="left: 40px; top: 49px; position: absolute; color: black; font-size: 12px; font-family: Inter; font-weight: 400; word-wrap: break-word">LOGO</div>
+      <img style="width: 114px; height: 114px; left: 0px; top: 0px; position: absolute; border-radius: 8px" src="https://via.placeholder.com/114x114" />
+    </div>
+    <div style="width: 728px; height: 1159px; left: 930px; top: 417px; position: absolute; background: #778DA9; border-radius: 25px; border: 10px #778DA9 solid"></div>
+    <div style="width: 1588px; height: 1141px; left: 70px; top: 0px; position: absolute">
+      <img style="width: 516px; height: 633px; left: 536px; top: 75px; position: absolute" src="https://via.placeholder.com/516x633" />
+      <img style="width: 516px; height: 633px; left: 1072px; top: 0px; position: absolute" src="https://via.placeholder.com/516x633" />
+      <div style="width: 507px; left: 0px; top: 720px; position: absolute; color: black; font-size: 24px; font-family: Ubuntu; font-style: italic; font-weight: 300; word-wrap: break-word">“Best service from the booking to the driver”</div>
+      <div style="width: 783px; left: 0px; top: 748px; position: absolute; color: black; font-size: 80px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word">WE ALWAYS DELIVER <br/>WHAT YOU NEED</div>
+      <div style="width: 300px; height: 60px; left: 0px; top: 970px; position: absolute; background: #415A77; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 9px">
+        <div style="width: 381px; height: 60px; left: -41px; top: 0px; position: absolute; text-align: center; color: white; font-size: 32px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word">Simulate  Now</div>
+      </div>
+    </div>
+    <div style="left: 204px; top: 70px; position: absolute; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 600; text-decoration: underline; word-wrap: break-word">About Us</div>
+    <div style="left: 304px; top: 70px; position: absolute; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 600; text-decoration: underline; word-wrap: break-word">Services</div>
+    <div style="left: 398px; top: 70px; position: absolute; color: black; font-size: 20px; font-family: Source Sans Pro; font-weight: 600; text-decoration: underline; word-wrap: break-word">Contact Us</div>
+  </div>
+  <div style="width: 688px; height: 266px; left: 70px; top: 2307px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 35px; display: inline-flex">
+    <div style="width: 1588px; height: 380px; position: relative">
+      <div style="width: 688px; left: 0px; top: 0px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+        <div style="width: 255px; height: 260px; padding: 20px; background: white; box-shadow: 0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05); flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+          <div style="width: 40px; height: 40px; position: relative">
+            <div style="width: 34px; height: 30px; left: 0px; top: 5px; position: absolute; background: #0E9F6E"></div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 18px; font-family: Roboto; font-weight: 500; line-height: 26px; word-wrap: break-word">Best on the market</div>
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 13px; display: inline-flex">
+            <div style="width: 106.67px; height: 20px; position: relative">
+              <div style="width: 106.67px; height: 20px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 21.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 43.33px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 65px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 20px; height: 20px; left: 86.67px; top: 0px; position: absolute; background: #0E9F6E"></div>
+                <div style="width: 14px; height: 13.25px; left: 3px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 24.67px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 46.33px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 68px; top: 3.37px; position: absolute; background: white"></div>
+                <div style="width: 14px; height: 13.25px; left: 89.67px; top: 3.37px; position: absolute; background: white"></div>
+              </div>
+            </div>
+            <div style="color: black; font-size: 12px; font-family: Roboto; font-weight: 300; line-height: 26px; word-wrap: break-word">2 days ago</div>
+          </div>
+          <div style="align-self: stretch; color: black; font-size: 14px; font-family: Roboto; font-weight: 300; line-height: 22px; word-wrap: break-word">I love this product because the support is great. Please ...</div>
+          <div style="width: 60px; height: 1px; background: #D4D4D8"></div>
+          <div style="color: black; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 22px; word-wrap: break-word">Worldtraveler</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 1515px; height: 887px; left: 66px; top: 2643px; position: absolute">
+    <div style="width: 786px; left: 4px; top: 0px; position: absolute; color: black; font-size: 48px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word">Let’s get in touch </div>
+    <div style="width: 534px; left: 4px; top: 75px; position: absolute"><span style="color: black; font-size: 24px; font-family: Ubuntu; font-weight: 300; word-wrap: break-word">You can reach us everytime via </span><span style="color: #0D1B2A; font-size: 24px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">email@email.com</span></div>
+    <div style="width: 295px; height: 76px; left: 4px; top: 132px; position: absolute">
+      <div style="width: 295px; height: 50px; left: 0px; top: 26px; position: absolute; background: white; border-radius: 9px; border: 1px #424242 solid"></div>
+      <div style="left: 12px; top: 40px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">First Name</div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">First Name</div>
+    </div>
+    <div style="width: 295px; height: 76px; left: 319px; top: 132px; position: absolute">
+      <div style="width: 295px; height: 50px; left: 0px; top: 26px; position: absolute; background: white; border-radius: 9px; border: 1px #424242 solid"></div>
+      <div style="left: 12px; top: 40px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">Last Name</div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Last Name</div>
+    </div>
+    <div style="width: 610px; height: 76px; left: 4px; top: 228px; position: absolute">
+      <div style="width: 610px; height: 50px; left: 0px; top: 26px; position: absolute; background: white; border-radius: 9px; border: 1px #424242 solid"></div>
+      <div style="left: 12px; top: 40px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">email@email.com</div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Email</div>
+    </div>
+    <div style="width: 610px; height: 76px; left: 4px; top: 324px; position: absolute">
+      <div style="width: 610px; height: 50px; left: 0px; top: 26px; position: absolute">
+        <div style="width: 610px; height: 50px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9px; border: 1px #424242 solid"></div>
+        <div style="width: 372px; left: 68px; top: 14px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">9821846279460</div>
+        <div style="left: 12px; top: 14px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">+351</div>
+      </div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Phone Number</div>
+    </div>
+    <div style="width: 610px; height: 226px; left: 4px; top: 420px; position: absolute">
+      <div style="width: 610px; height: 200px; left: 0px; top: 26px; position: absolute">
+        <div style="width: 610px; height: 200px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9px; border: 1px #424242 solid"></div>
+        <div style="width: 418px; left: 12px; top: 15px; position: absolute; color: #424242; font-size: 18px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">Leave a message...</div>
+      </div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Message</div>
+    </div>
+    <div style="width: 223px; height: 143px; left: 4px; top: 666px; position: absolute">
+      <div style="width: 93px; height: 20px; left: 0px; top: 37px; position: absolute">
+        <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 2px; border: 1px #C1C1C1 solid"></div>
+        <div style="width: 63px; height: 20px; left: 30px; top: 0px; position: absolute; color: #424242; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Transfer</div>
+      </div>
+      <div style="width: 106px; height: 23px; left: 113px; top: 36px; position: absolute">
+        <div style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute; background: white; border-radius: 2px; border: 1px #C1C1C1 solid"></div>
+        <div style="left: 30px; top: 0px; position: absolute; color: #424242; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Boat Trips</div>
+      </div>
+      <div style="width: 72px; height: 23px; left: 0px; top: 77px; position: absolute">
+        <div style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute; background: white; border-radius: 2px; border: 1px #C1C1C1 solid"></div>
+        <div style="left: 30px; top: 0px; position: absolute; color: #424242; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Tours</div>
+      </div>
+      <div style="width: 110px; height: 23px; left: 113px; top: 77px; position: absolute">
+        <div style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute; background: white; border-radius: 2px; border: 1px #C1C1C1 solid"></div>
+        <div style="left: 30px; top: 0px; position: absolute; color: #424242; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Bus Rental</div>
+      </div>
+      <div style="width: 73px; height: 23px; left: 0px; top: 120px; position: absolute">
+        <div style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute; background: white; border-radius: 2px; border: 1px #C1C1C1 solid"></div>
+        <div style="left: 30px; top: 0px; position: absolute; color: #424242; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Other</div>
+      </div>
+      <div style="left: 0px; top: 0px; position: absolute; color: black; font-size: 18px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Services</div>
+    </div>
+    <div style="width: 610px; height: 50px; left: 4px; top: 829px; position: absolute; background: #415A77; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 9px">
+      <div style="width: 610px; height: 60px; left: 0px; top: -5px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word">Send Message</div>
+    </div>
+    <img style="width: 603px; height: 668px; left: 857px; top: 110px; position: absolute; border-radius: 9px" src="https://via.placeholder.com/603x668" />
+  </div>
+  <div style="width: 688px; height: 34px; left: 70px; top: 2233px; position: absolute; color: black; font-size: 40px; font-family: Source Sans Pro; font-weight: 700; line-height: 26px; word-wrap: break-word">What customers say about us </div>
+  <div style="width: 688px; height: 21px; left: 70px; top: 2273px; position: absolute; color: black; font-size: 20px; font-family: Ubuntu; font-weight: 400; line-height: 20px; word-wrap: break-word">We do our best to provide you the best experience ever</div>
+  <div style="width: 1588px; height: 513px; left: 70px; top: 1612px; position: absolute">
+    <div style="width: 783px; left: 2px; top: 0px; position: absolute; color: black; font-size: 48px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word">About Us</div>
+    <img style="width: 217px; height: 427px; left: 888px; top: 86px; position: absolute" src="https://via.placeholder.com/217x427" />
+    <img style="width: 217px; height: 427px; left: 1341px; top: 86px; position: absolute" src="https://via.placeholder.com/217x427" />
+    <img style="width: 216px; height: 427px; left: 1115px; top: 86px; position: absolute" src="https://via.placeholder.com/216x427" />
+    <div style="width: 757px; height: 425px; left: 0px; top: 88px; position: absolute"><span style="color: black; font-size: 20px; font-family: Ubuntu; font-weight: 400; line-height: 40.18px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/></span><span style="color: black; font-size: 20px; font-family: Ubuntu; font-weight: 400; line-height: 40.18px; word-wrap: break-word">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores<br/></span><span style="color: black; font-size: 20px; font-family: Ubuntu; font-weight: 400; line-height: 40.18px; word-wrap: break-word">Et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga</span></div>
+  </div>
+  <div style="width: 1729px; height: 30px; left: 0px; top: 3605px; position: absolute; background: white"></div>
+  <div style="width: 157px; height: 31px; left: 1501px; top: 3604px; position: absolute; color: #424242; font-size: 16px; font-family: Ubuntu; font-weight: 400; word-wrap: break-word">@Copyright 2023</div>
+</div>
