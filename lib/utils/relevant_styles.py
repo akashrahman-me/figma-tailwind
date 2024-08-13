@@ -1,6 +1,6 @@
 import re
 def relevant_style():
-    # Read the file content
+   # Read the file content
    with open('tailwind.txt', 'r') as file:
       lines = file.readlines()
 
