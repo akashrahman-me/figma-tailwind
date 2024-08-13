@@ -1,11 +1,13 @@
 D:/Endeavors/falcon/tailwind.config.ts
 text-left font-normal
 
-font-family: Roboto;
-font-size: 18px;
-font-weight: 500;
-line-height: 26px;
-text-align: left;
-background: #000000;
 
+
+
+color: #000;
+font-family: Open Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 

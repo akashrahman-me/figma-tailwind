@@ -1,9 +1,10 @@
 from lib.classes_gen.helper.combined_config import combined_config
 def font_family_class(font_family_value):
-    if 'fontFamily' in  combined_config['theme']:
-        path = combined_config['theme']['fontFamily']
-    elif 'fontFamily' in  combined_config['theme']['extend']:
+    if 'fontFamily' in  combined_config['theme']['extend']:
         path = combined_config['theme']['extend']['fontFamily']
+    elif 'fontFamily' in  combined_config['theme']:
+        path = combined_config['theme']['fontFamily']
+    
 
     font_family_keys = list(path.keys())
     

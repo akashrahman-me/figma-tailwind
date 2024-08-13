@@ -1,7 +1,16 @@
+import re
 def relevant_style():
     # Read the file content
    with open('tailwind.txt', 'r') as file:
       lines = file.readlines()
 
-   # Split into trhee elements: 1st line for tailwind config, 2nd for relevant styles, 3rd for styles 
-   return (lines[0].strip(), lines[1].strip(), ''.join(lines[2:]).strip())
+   tailwind_config = lines[0].strip()
+   relevant = lines[1].strip()
+   css_string = ''.join(lines[2:]).strip()
+
+   # Regular expression to find any CSS property with var(...)
+   # Replace the matched pattern with just the fallback hex color
+   pattern = r'var\([^,]+,\s*(#[0-9A-Fa-f]{3,6})\)'
+   css_string = re.sub(pattern, r'\1', css_string)
+
+   return (tailwind_config, relevant, css_string)
