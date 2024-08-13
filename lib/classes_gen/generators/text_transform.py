@@ -10,4 +10,4 @@ def text_transform_class(text_transform_value):
         if text_transform_value == pair[0]:
             return f'text-{pair[1]}'
 
-    return f"{text_transform_value.replace(' ', '_')}"
+    return f"text-{text_transform_value.replace(' ', '_')}"

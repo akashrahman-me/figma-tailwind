@@ -34,10 +34,10 @@ def css_to_tailwind(css):
         ['font-family', font_family_class],
         ['font-style', font_style_class],
         ['text-align', text_align_class],
-        ['text-transform', text_transform_class],
         ['font-size', font_size_class],
         [['line-height', 'font-size'], line_height_class],
         [['letter-spacing', 'font-size'], letter_spacing_class],
+        ['text-transform', text_transform_class],
 
         # Color
         ['color', color_class],
