@@ -5,7 +5,6 @@ import os
 import time
 import sys
 
-
 class FileChangeHandler(FileSystemEventHandler):
     def __init__(self):
         self.last_modified = time.time()

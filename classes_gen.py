@@ -37,6 +37,7 @@ def css_to_tailwind(css):
         ['text-transform', text_transform_class],
         ['font-size', font_size_class],
         [['line-height', 'font-size'], line_height_class],
+        [['letter-spacing', 'font-size'], letter_spacing_class],
 
         # Color
         ['color', color_class],
@@ -71,35 +72,14 @@ def css_to_tailwind(css):
                 if(style.getProperty(prop)):
                     value = style.getPropertyValue(prop)
                     values.append(value)
-            result += relevant_valid(property_class(*values))        
+                else:
+                    break
+            if len(values) == len(property):
+                result += relevant_valid(property_class(*values))
 
         tailwind_classes += result
 
-    tailwind_classes += value_pass('background', background_class,
-                                   lambda value: is_valid_color(value))
-
-    if style.getProperty('font-size') and False:
-        font_size_value = style.getPropertyValue('font-size')
-        line_height_value = style.getPropertyValue('line-height')
-        letter_spacing_value = style.getPropertyValue('letter-spacing')
-
-        tailwind_font_size = font_size_class(font_size_value)
-        
-        if tailwind_font_size not in relevant:
-            tailwind_classes += f" {tailwind_font_size}"
-
-        if style.getProperty('line-height'):
-            tailwind_line_height = line_height_class(
-                line_height_value, font_size_value)
-
-            if tailwind_line_height not in relevant:
-                tailwind_classes += f" {tailwind_line_height}"
-
-        if style.getProperty('letter-spacing'):
-            tailwind_letter_spacing = letter_spacing_class(
-                letter_spacing_value, font_size_value)
-            if tailwind_letter_spacing not in relevant:
-                tailwind_classes += f" {tailwind_letter_spacing}"
+    # tailwind_classes += value_pass('background', background_class, lambda value: is_valid_color(value))
 
     return tailwind_classes.strip()
 
