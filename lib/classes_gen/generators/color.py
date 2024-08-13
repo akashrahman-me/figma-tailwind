@@ -1,7 +1,7 @@
-from lib.classes_gen.helper.combined_config import combined_config, config, theme_colors
+from lib.classes_gen.helper.combined_config import combined_config, theme_colors
 from lib.classes_gen.convert_to_six_digit_hex_color import convert_to_six_digit_hex_color
 
-def get_color_class_from_color_value(color_value):
+def color_class(color_value):
     # check in both theme.colors and theme.extend.colors
     color_configs = [theme_colors, combined_config['theme']['extend']['colors']]
 

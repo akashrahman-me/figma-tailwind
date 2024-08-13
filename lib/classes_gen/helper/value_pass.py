@@ -1,12 +1,11 @@
-from lib.classes_gen.helper.combined_config import config
 from lib.classes_gen.helper.combined_config import style
 from lib.utils.relevant_styles import relevant_style
 
-def releven_valid(t_class):
+def relevant_valid(class_name):
     result = ""
-    relevant, _ = relevant_style()
-    if t_class not in relevant:
-        result = f" {t_class}"
+    _, relevant, _ = relevant_style()
+    if class_name not in relevant:
+        result = f" {class_name}"
     return result
 
 def value_pass(property, get_class, value_validation = None):   
@@ -17,8 +16,8 @@ def value_pass(property, get_class, value_validation = None):
             if not value_validation(value):
                 return result
             else:
-                result = releven_valid(get_class(value_validation(value)))
+                result = relevant_valid(get_class(value_validation(value)))
         else:
-            result = releven_valid(get_class(value))
+            result = relevant_valid(get_class(value))
 
     return result

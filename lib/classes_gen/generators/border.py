@@ -1,4 +1,4 @@
-from lib.classes_gen.helper.combined_config import combined_config, config, theme_colors
+from lib.classes_gen.helper.combined_config import combined_config, theme_colors
 from lib.utils.round_with_unit import round_with_unit
 from lib.classes_gen.compare_typography import compare_typography
 from lib.utils.format_length import format_length
@@ -6,7 +6,7 @@ from lib.utils.convert_unit import  convert_unit
 from lib.classes_gen.convert_to_six_digit_hex_color import  convert_to_six_digit_hex_color
 import re
 
-def get_border_class_from_border_value(border_value):
+def border_class(border_value):
     result = ""
     try:
         border_match = re.match(r"(\d+\.?\d+px) (solid|outline|dashed|dotted) (\#[0-9a-fA-F]{3}([0-9a-fA-F]{3})?)", border_value)

@@ -1,11 +1,11 @@
-from lib.classes_gen.helper.combined_config import combined_config, config, theme_colors
+from lib.classes_gen.helper.combined_config import combined_config, theme_colors
 from lib.utils.round_with_unit import round_with_unit
 from lib.classes_gen.compare_typography import compare_typography
 from lib.utils.format_length import format_length
 from lib.utils.convert_unit import  convert_unit
 from lib.classes_gen.convert_to_six_digit_hex_color import  convert_to_six_digit_hex_color
 
-def get_background_color_class_from_background_color_value(background_color_value):
+def background_class(background_color_value):
     color_configs = [theme_colors, combined_config['theme']['extend']['colors']]
 
     background_color_value = convert_to_six_digit_hex_color(background_color_value)

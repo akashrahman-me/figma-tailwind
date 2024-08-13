@@ -1,4 +1,4 @@
-from lib.classes_gen.helper.combined_config import combined_config, config, theme_colors
+from lib.classes_gen.helper.combined_config import combined_config, theme_colors
 from lib.utils.round_with_unit import round_with_unit
 from lib.classes_gen.compare_typography import compare_typography
 from lib.utils.format_length import format_length
@@ -15,7 +15,7 @@ def get_spacing_class(value, prefix):
 
   return f"{prefix}-[{value}]"
 
-def get_padding_class_from_line_padding_value(padding_value):
+def padding_class(padding_value):
     result = ""
     padding_value = padding_value.split(' ')
     n = len(padding_value)

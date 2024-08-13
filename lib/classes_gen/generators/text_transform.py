@@ -1,4 +1,4 @@
-def get_text_transform(text_transform_value):
+def text_transform_class(text_transform_value):
     text_transform_values = [
         ['uppercase', 'uppercase'],
         ['lowercase', 'lowercase'],
