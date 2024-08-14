@@ -1,5 +1,3 @@
-from lib.utils.is_valid_color import is_valid_color
-from lib.classes_gen.helper.value_pass import value_pass
 from lib.classes_gen.helper.combined_config import style
 import pyperclip
 
@@ -23,7 +21,6 @@ from lib.utils.relevant_styles import relevant_style
 from lib.utils.clear_tailwind import clear_tailwind
 config_path, relevant, css_string = relevant_style()
 
-
 def css_to_tailwind(css):
     tailwind_classes = ""
     style._setCssText(css)
@@ -42,11 +39,12 @@ def css_to_tailwind(css):
         # Color
         ['color', color_class],
         ['background-color', background_class],
+        ['background', background_class],
         ['box-shadow', box_shadow_class],
 
         # Layout
         ['border-radius', border_radius_class],
-        ['border', border_class],
+        # ['border', border_class],
         # ['padding', padding_class],
     ]
 
@@ -78,8 +76,6 @@ def css_to_tailwind(css):
                 result += relevant_valid(property_class(*values))
 
         tailwind_classes += result
-
-    # tailwind_classes += value_pass('background', background_class, lambda value: is_valid_color(value))
 
     return tailwind_classes.strip()
 

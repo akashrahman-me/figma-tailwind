@@ -1,29 +1,29 @@
 from lib.classes_gen.helper.combined_config import combined_config, theme_colors
-from lib.utils.round_with_unit import round_with_unit
-from lib.classes_gen.compare_typography import compare_typography
-from lib.utils.format_length import format_length
-from lib.utils.convert_unit import  convert_unit
-from lib.classes_gen.convert_to_six_digit_hex_color import  convert_to_six_digit_hex_color
+from PIL import ImageColor
 
-def background_class(background_color_value):
-    color_configs = [theme_colors, combined_config['theme']['extend']['colors']]
+def background_class(color_value):
+    # Check in both theme.colors and theme.extend.colors
+    theme = [theme_colors, combined_config['theme']['extend'].get('colors', {})]
 
-    background_color_value = convert_to_six_digit_hex_color(background_color_value)
+    color_value = ImageColor.getcolor(color_value, "RGB")
 
-    for config in color_configs:
-        for color in config:
-            if isinstance(config[color], str):
-                if convert_to_six_digit_hex_color(config[color]).lower() == background_color_value.lower():
-                    return f"bg-{color}"  # Direct color match
-            elif isinstance(config[color], dict):
-                for variant in config[color]:
-                    color_config = config[color][variant]
-                    if isinstance(color_config, str) and convert_to_six_digit_hex_color(color_config).lower() == background_color_value.lower():
+    for colors in theme:
+        for color_key in colors:
+            if color_key in ['inherit', 'current', 'transparent']:
+                continue
+
+            if isinstance(colors[color_key], str):
+                if ImageColor.getcolor(colors[color_key], "RGB") == color_value:
+                    return f"bg-{color_key}" # Direct color match
+                
+            elif isinstance(colors[color_key], dict):
+                for variant in colors[color_key]:
+                    color_config = colors[color_key][variant]
+                    if ImageColor.getcolor(color_config, "RGB") == color_value:
                         if variant == "DEFAULT":
-                            # If it's the default variant, we only need the color key, not the variant.
-                            return f"bg-{color}"
+                            return f"bg-{color_key}"
                         else:
-                            # If it's not the default variant, we need both the color key and the variant.
-                            return f"bg-{color}-{variant}"
+                            return f"bg-{color_key}-{variant}"
 
-    return f"bg-[{background_color_value.replace(' ', '_')}]"
+    # If no matching color is found, return an arbitrary color class.
+    return f"bg-[rgb{str(color_value).replace(' ', '_')}]"

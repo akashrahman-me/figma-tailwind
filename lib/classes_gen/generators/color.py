@@ -1,29 +1,29 @@
 from lib.classes_gen.helper.combined_config import combined_config, theme_colors
-from lib.classes_gen.convert_to_six_digit_hex_color import convert_to_six_digit_hex_color
+from PIL import ImageColor
 
 def color_class(color_value):
-    # check in both theme.colors and theme.extend.colors
-    color_configs = [theme_colors, combined_config['theme']['extend']['colors']]
+    # Check in both theme.colors and theme.extend.colors
+    theme = [theme_colors, combined_config['theme']['extend'].get('colors', {})]
 
-    # convert the input color value to a six digit hex color
-    color_value = convert_to_six_digit_hex_color(color_value)
+    color_value = ImageColor.getcolor(color_value, "RGB")
 
-    for config in color_configs:
-        for color in config:
-            if isinstance(config[color], str):
-                if convert_to_six_digit_hex_color(config[color]).lower() == color_value.lower():
-                    return f"text-{color}"  # Direct color match
-            elif isinstance(config[color], dict):
-                for variant in config[color]:
-                    color_config = config[color][variant]
-                    if isinstance(color_config, str) and convert_to_six_digit_hex_color(color_config).lower() == color_value.lower():
+    for colors in theme:
+        for color_key in colors:
+            if color_key in ['inherit', 'current', 'transparent']:
+                continue
+
+            if isinstance(colors[color_key], str):
+                if ImageColor.getcolor(colors[color_key], "RGB") == color_value:
+                    return f"text-{color_key}" # Direct color match
+                
+            elif isinstance(colors[color_key], dict):
+                for variant in colors[color_key]:
+                    color_config = colors[color_key][variant]
+                    if ImageColor.getcolor(color_config, "RGB") == color_value:
                         if variant == "DEFAULT":
-                            # If it's the default variant, we only need the color key, not the variant.
-                            return f"text-{color}"
+                            return f"text-{color_key}"
                         else:
-                            # If it's not the default variant, we need both the color key and the variant.
-                            return f"text-{color}-{variant}"
+                            return f"text-{color_key}-{variant}"
 
     # If no matching color is found, return an arbitrary color class.
-    # This means the color value isn't defined in the Tailwind config and you want to use an arbitrary color.
-    return f"text-[{color_value.replace(' ', '_')}]"
+    return f"text-[rgb{str(color_value).replace(' ', '_')}]"
