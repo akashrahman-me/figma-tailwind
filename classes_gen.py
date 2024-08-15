@@ -1,4 +1,3 @@
-from lib.classes_gen.helper.combined_config import style
 import pyperclip
 
 # Generators
@@ -15,7 +14,9 @@ from lib.classes_gen.generators.letter_spacing import letter_spacing_class
 from lib.classes_gen.generators.line_height import line_height_class
 from lib.classes_gen.generators.text_align import text_align_class
 from lib.classes_gen.generators.padding import padding_class
+from lib.classes_gen.generators.margin import margin_class
 from lib.classes_gen.generators.text_transform import text_transform_class
+from lib.utils.css_string_to_properties import css_string_to_properties
 
 from lib.utils.relevant_styles import relevant_style
 from lib.utils.clear_tailwind import clear_tailwind
@@ -23,7 +24,7 @@ config_path, relevant, css_string = relevant_style()
 
 def css_to_tailwind(css):
     tailwind_classes = ""
-    style._setCssText(css)
+    styles = css_string_to_properties(css)
 
     properties = [
         # Typography
@@ -35,17 +36,20 @@ def css_to_tailwind(css):
         [['line-height', 'font-size'], line_height_class],
         [['letter-spacing', 'font-size'], letter_spacing_class],
         ['text-transform', text_transform_class],
+        ['color', color_class],
 
         # Color
-        ['color', color_class],
         ['background-color', background_class],
+
+        # Styles
+        ['border-radius', border_radius_class],
         ['background', background_class],
         ['box-shadow', box_shadow_class],
+        ['border', border_class],
 
         # Layout
-        ['border-radius', border_radius_class],
-        # ['border', border_class],
-        # ['padding', padding_class],
+        ['padding', padding_class],
+        ['margin', margin_class],
     ]
 
     def relevant_valid(class_name):
@@ -59,16 +63,16 @@ def css_to_tailwind(css):
         result = ""
         # if property is string
         if isinstance(property, str):
-            if(style.getProperty(property)):
-                value = style.getPropertyValue(property)
+            if(property in styles):
+                value = styles[property]
                 result = relevant_valid(property_class(value))
 
         # if property is list
         elif isinstance(property, list):
             values = []
             for prop in property:
-                if(style.getProperty(prop)):
-                    value = style.getPropertyValue(prop)
+                if(prop in styles):
+                    value = styles[prop]
                     values.append(value)
                 else:
                     break
@@ -81,6 +85,6 @@ def css_to_tailwind(css):
 
 
 classes = css_to_tailwind(css_string)
-pyperclip.copy(classes)  # Copy the result
+# pyperclip.copy(classes)
 # clear_tailwind('tailwind.txt')
 print(classes)

@@ -1,29 +1,22 @@
-from lib.classes_gen.helper.combined_config import combined_config, theme_colors
-from PIL import ImageColor
+from lib.classes_gen.generators.color import color_class
+from lib.classes_gen.helper.combined_config import combined_config
 
-def background_class(color_value):
-    # Check in both theme.colors and theme.extend.colors
-    theme = [theme_colors, combined_config['theme']['extend'].get('colors', {})]
+def background_class(value):
+   class_name = color_class(value, 'bg')
 
-    color_value = ImageColor.getcolor(color_value, "RGB")
+   if class_name == '' and value != '' :
+      backgrounds = combined_config['theme'].get('backgroundImage', {})
 
-    for colors in theme:
-        for color_key in colors:
-            if color_key in ['inherit', 'current', 'transparent']:
-                continue
+      if value is None:
+         return ""
 
-            if isinstance(colors[color_key], str):
-                if ImageColor.getcolor(colors[color_key], "RGB") == color_value:
-                    return f"bg-{color_key}" # Direct color match
-                
-            elif isinstance(colors[color_key], dict):
-                for variant in colors[color_key]:
-                    color_config = colors[color_key][variant]
-                    if ImageColor.getcolor(color_config, "RGB") == color_value:
-                        if variant == "DEFAULT":
-                            return f"bg-{color_key}"
-                        else:
-                            return f"bg-{color_key}-{variant}"
+      for backgrounds_key in backgrounds:
+            if isinstance(backgrounds[backgrounds_key], str):
+               if backgrounds[backgrounds_key] == value:
+                  return f"bg-{backgrounds_key}"
+               
+      return f"bg-[{str(value).replace(' ', '_')}]"
 
-    # If no matching color is found, return an arbitrary color class.
-    return f"bg-[rgb{str(color_value).replace(' ', '_')}]"
+   else:
+      return class_name
+    

@@ -1,4 +1,5 @@
 import cssutils
+from lib.utils.to_rgb_color import to_rgb_color
 
 def expand_padding(padding_value):
     values = padding_value.split()
@@ -17,14 +18,21 @@ def expand_padding(padding_value):
 
 padding_top, padding_right, padding_bottom, padding_left = expand_padding('10px 20px 12px')
 
-from PIL import ImageColor
-color = ImageColor.getcolor("rgb(255, 200, 255)", "RGB")
-print(color)
 
+import tinycss2
 
-# print("Padding top:", padding_top)
-# print("Padding right:", padding_right)
-# print("Padding bottom:", padding_bottom)
-# print("Padding left:", padding_left)
+def css_string_to_properties(css_string):
+    parsed = tinycss2.parse_declaration_list(css_string)
 
+    styles = {}
+    for decl in parsed:
+        if decl.type == 'declaration' and not decl.name.startswith('--'):
+            # Reconstruct the value from the component list
+            value = ''.join([token.serialize() for token in decl.value])
+            styles = {**styles, decl.name: value.strip()}
+
+    return styles
+
+x = css_string_to_properties('padding: 10px 20px;')
+print(x)
 

@@ -1,29 +1,25 @@
-from lib.classes_gen.helper.combined_config import combined_config, theme_colors
-from lib.utils.round_with_unit import round_with_unit
-from lib.classes_gen.compare_typography import compare_typography
-from lib.utils.format_length import format_length
-from lib.utils.convert_unit import  convert_unit
-from lib.classes_gen.convert_to_six_digit_hex_color import  convert_to_six_digit_hex_color
+from lib.classes_gen.helper.combined_config import combined_config
 import re
+from lib.classes_gen.generators.color import color_class
 
 def border_class(border_value):
     result = ""
-    try:
-        border_match = re.match(r"(\d+\.?\d+px) (solid|outline|dashed|dotted) (\#[0-9a-fA-F]{3}([0-9a-fA-F]{3})?)", border_value)
+    pattern = r"(?P<width>\d+px)\s*(?P<style>solid|outline|dashed|dotted)?\s*(?P<color>#[0-9A-Fa-f]{3,6})"
 
-        if border_match:
-            border_width_value = border_match.group(1)
-            border_style_value = border_match.group(2)
-            border_color_value = border_match.group(3)
-            border_width = get_border_width_class_from_border_width_value(
-                border_width_value
-            )
-            border_style = f"border-{border_style_value}"
-            border_color = get_border_color_class_from_border_color_value(
-                border_color_value
-            )
+    try:
+        match = re.search(pattern, border_value)
+
+        if match:
+            width = match.group("width")
+            style = match.group("style")
+            color = match.group("color")
+
+            border_width = border_width_class(width)
+            border_style = f"border-{style}" if style is not None else ""
+            border_color = border_color_class(color)
+            
             result = f"{border_width} {border_color}"
-            if(border_style_value !='solid'):
+            if(style and style != "solid"):
                 result += f" {border_style}"
 
         else:
@@ -32,37 +28,19 @@ def border_class(border_value):
     except  IndexError:
         return ""
 
-def get_border_width_class_from_border_width_value(border_width_value):
+def border_width_class(border_width_value):
+    theme = [combined_config['theme']['extend'].get('borderWidth', {}), combined_config['theme']['borderWidth']]
 
-    border_width_keys = list(combined_config['theme']['borderWidth'].keys())
-
-    for border_width in border_width_keys:
-        if combined_config['theme']['borderWidth'][border_width] == border_width_value:
-            if border_width == "DEFAULT":
-                return "border"
-            else:
-                return f"border-{border_width}"
+    for border_widths in theme:
+        for border_width_key in border_widths:
+            if border_widths[border_width_key] == border_width_value:
+                if border_width_key == "DEFAULT":
+                    return "border"
+                else:
+                    return f"border-{border_width_key}"
 
     # If no matching border width is found, return an arbitrary border width class.
     return f"border-[{border_width_value}]"
 
-def get_border_color_class_from_border_color_value(border_color_value):
-    color_configs = [theme_colors,
-                     combined_config['theme']['extend']['colors']]
-    border_color_value = convert_to_six_digit_hex_color(border_color_value)
-
-    for config in color_configs:
-        for color in config:
-            if isinstance(config[color], str):
-                if convert_to_six_digit_hex_color(config[color]).lower() == border_color_value.lower():
-                    return f'border-{color}'
-            elif isinstance(config[color], dict):
-                for variant in config[color]:
-                    color_config = config[color][variant]
-                    if (isinstance(color_config, str) and
-                            convert_to_six_digit_hex_color(color_config).lower() == border_color_value.lower()):
-                        if variant == 'DEFAULT':
-                            return f'border-{color}'
-                        else:
-                            return f'border-{color}-{variant}'
-    return f'border-[{border_color_value}]'
+def border_color_class(border_color_value):
+    return color_class(border_color_value, 'border')
