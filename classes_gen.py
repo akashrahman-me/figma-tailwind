@@ -14,6 +14,7 @@ from lib.classes_gen.generators.letter_spacing import letter_spacing_class
 from lib.classes_gen.generators.line_height import line_height_class
 from lib.classes_gen.generators.text_align import text_align_class
 from lib.classes_gen.generators.padding import padding_class
+from lib.classes_gen.generators.opacity import opacity_class
 from lib.classes_gen.generators.margin import margin_class
 from lib.classes_gen.generators.text_transform import text_transform_class
 from lib.utils.css_string_to_properties import css_string_to_properties
@@ -46,6 +47,7 @@ def css_to_tailwind(css):
         ['background', background_class],
         ['box-shadow', box_shadow_class],
         ['border', border_class],
+        ['opacity', opacity_class],
 
         # Layout
         ['padding', padding_class],

@@ -1,9 +1,1 @@
-1. 
-border: 1px solid var(--gray-300, #2E3545);
-border-[1px solid #2E3545]
-
-2.
-If has border then we should reduce padding so that layout will be accurate.
-
-3. 
-We can add border-radius properties support theme_gen and classes_gen both.
+1. We can add border-radius properties support theme_gen.
