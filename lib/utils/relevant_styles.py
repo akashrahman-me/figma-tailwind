@@ -1,4 +1,6 @@
 import re
+import urllib.parse
+
 def relevant_style():
    # Read the file content
    with open('tailwind.txt', 'r') as file:
@@ -12,5 +14,7 @@ def relevant_style():
    # Replace the matched pattern with just the fallback hex color
    pattern = r'var\([^,]+,\s*(#[0-9A-Fa-f]{3,6})\)'
    css_string = re.sub(pattern, r'\1', css_string)
+
+   css_string = urllib.parse.unquote(css_string)
 
    return (tailwind_config, relevant, css_string)

@@ -10,7 +10,6 @@ def border_radius_class(border_radius_value):
 
     # Convert pixel to rem for matching
     border_radius_value_rem = pixel_to_rem(border_radius_value)
-
     for border_radiuses in theme:
         for border_redius_key in border_radiuses:
             if (pixel_to_rem(border_radiuses[border_redius_key])) == (border_radius_value_rem):

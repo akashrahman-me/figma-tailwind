@@ -1,10 +1,11 @@
 from lib.classes_gen.helper.combined_config import combined_config
 import re
 from lib.classes_gen.generators.color import color_class
+from lib.utils.compare_pixel import compare_pixel
 
 def border_class(border_value):
     result = ""
-    pattern = r"(?P<width>\d+px)\s*(?P<style>solid|outline|dashed|dotted)?\s*(?P<color>#[0-9A-Fa-f]{3,6})"
+    pattern = r"(?P<width>\d*\.?\d+px)\s*(?P<style>solid|outline|dashed|dotted)?\s*(?P<color>#[0-9A-Fa-f]{3,6})"
 
     try:
         match = re.search(pattern, border_value)
@@ -33,7 +34,7 @@ def border_width_class(border_width_value):
 
     for border_widths in theme:
         for border_width_key in border_widths:
-            if border_widths[border_width_key] == border_width_value:
+            if compare_pixel(float(border_width_value.replace('px', '')), float(border_widths[border_width_key].replace('px', ''))):
                 if border_width_key == "DEFAULT":
                     return "border"
                 else:

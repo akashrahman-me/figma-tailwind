@@ -1,10 +1,4 @@
-D:/Endeavors/falcon/tailwind.config.ts
-text-left font-normal text-black
+D:/Endeavors/xenios/tailwind.config.ts
+text-left font-normal text-black font-inter items-start
 
-color: #000;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: capitalize;
+

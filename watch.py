@@ -15,7 +15,7 @@ class FileChangeHandler(FileSystemEventHandler):
             if current_time - self.last_modified < 1:  # less than one second
                 return
             self.last_modified = current_time
-            subprocess.run([sys.executable, "classes_gen.py"])
+            subprocess.run([sys.executable, "class.py"])
 
 
 if __name__ == "__main__":

@@ -1,1 +1,51 @@
-{"colors": {"black": {"0": "#000000"}, "gray": {"50": "#ffffff", "900": "#0D1B2A"}, "neutral": {"700": "#424242"}}, "fontSize": {"xs": ["12px", {"lineHeight": "2.17em"}], "sm": ["14px", {"lineHeight": "1.57em"}], "md": ["16px", {}], "base": ["18px", {"lineHeight": "1.44em"}], "lg": ["20px", {"lineHeight": "2em"}], "xl": ["24px", {"lineHeight": "0.83em"}], "3xl": ["32px", {}], "4xl": ["40px", {"lineHeight": "0.65em"}], "5xl": ["48px", {}], "6xl": ["80px", {}]}, "shadows": {"sm": "0px 4px 4px rgba(0, 0, 0, 0.25)", "md": "0px 12px 24px rgba(27.49, 58.65, 119.13, 0.05)"}, "fontFamily": {"source-sans-pro": ["'Source Sans Pro'", "...fontFamily.sans"], "ubuntu": ["'Ubuntu'", "...fontFamily.sans"], "inter": ["'Inter'", "...fontFamily.sans"], "roboto": ["'Roboto'", "...fontFamily.sans"]}, "fontWeights": [{"name": "Source Sans Pro", "weight": ["400", "600", "700"]}, {"name": "Ubuntu", "weight": ["300", "400", "500"]}, {"name": "Inter", "weight": ["400"]}, {"name": "Roboto", "weight": ["300", "500", "700"]}]}
+{
+   "colors": {
+      "black": {"0": "#000000"},
+      "slate": {"300": "#D0D0D0"},
+      "gray": {"50": "#ffffff", "100": "#F6F6F1"},
+      "neutral": {"500": "#717171", "600": "#575150", "700": "#403939"},
+      "amber": {"100": "#FEFFBE"},
+      "rose": {"200": "#FFBEBE"}
+   },
+   "fontSize": {
+      "xs": ["14px", {}],
+      "sm": ["15px", {"lineHeight": "1.08em"}],
+      "md": ["15px", {"lineHeight": "1.13em"}],
+      "base": ["16px", {"lineHeight": "1.6em"}],
+      "lg": ["16px", {}],
+      "xl": ["18px", {}],
+      "3xl": ["18px", {"lineHeight": "1.38em"}],
+      "4xl": ["18px", {"lineHeight": "1.1em"}],
+      "5xl": ["19px", {"lineHeight": "1.13em"}],
+      "6xl": ["20px", {"lineHeight": "1.11em"}],
+      "7xl": ["20px", {"lineHeight": "1.15em"}],
+      "8xl": ["22px", {"lineHeight": "1.1em"}],
+      "9xl": ["22px", {}],
+      "10xl": ["25px", {"lineHeight": "1.12em"}],
+      "11xl": ["30px", {"lineHeight": "1em"}],
+      "12xl": ["30px", {"lineHeight": "1.17em"}],
+      "13xl": ["31px", {"lineHeight": "1.17em"}],
+      "14xl": ["31px", {"lineHeight": "1.23em"}],
+      "15xl": ["31px", {}],
+      "16xl": ["31px", {"lineHeight": "1.12em"}],
+      "17xl": ["36px", {"lineHeight": "1.11em"}],
+      "18xl": ["41px", {"lineHeight": "0.61em"}],
+      "19xl": ["56px", {"lineHeight": "0.45em"}],
+      "20xl": ["60px", {"lineHeight": "1.15em"}],
+      "21xl": ["90px", {"lineHeight": "1.16em"}]
+   },
+   "shadows": {
+      "sm": "0px 4px 12px rgba(0, 0, 0, 0.25)",
+      "md": "0px 4px 4px rgba(0, 0, 0, 0.25)"
+   },
+   "fontFamily": {
+      "anton": ["'Anton'", "...fontFamily.sans"],
+      "inter": ["'Inter'", "...fontFamily.sans"],
+      "archivo": ["'Archivo'", "...fontFamily.sans"]
+   },
+   "fontWeights": [
+      {"name": "Anton", "weight": ["400"]},
+      {"name": "Inter", "weight": ["400", "500", "600", "700", "900"]},
+      {"name": "Archivo", "weight": ["500"]}
+   ]
+}

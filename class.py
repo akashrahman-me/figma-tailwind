@@ -12,8 +12,12 @@ from lib.classes_gen.generators.font_style import font_style_class
 from lib.classes_gen.generators.font_weight import font_weight_class
 from lib.classes_gen.generators.letter_spacing import letter_spacing_class
 from lib.classes_gen.generators.line_height import line_height_class
+from lib.classes_gen.generators.display import display_class
+from lib.classes_gen.generators.gap import gap_class
 from lib.classes_gen.generators.text_align import text_align_class
 from lib.classes_gen.generators.padding import padding_class
+from lib.classes_gen.generators.opacity import opacity_class
+from lib.classes_gen.generators.align_items import align_items_class
 from lib.classes_gen.generators.opacity import opacity_class
 from lib.classes_gen.generators.margin import margin_class
 from lib.classes_gen.generators.text_transform import text_transform_class
@@ -52,6 +56,9 @@ def css_to_tailwind(css):
         # Layout
         ['padding', padding_class],
         ['margin', margin_class],
+        ['display', display_class],
+        ['gap', gap_class],
+        ['align-items', align_items_class],
     ]
 
     def relevant_valid(class_name):
@@ -87,6 +94,6 @@ def css_to_tailwind(css):
 
 
 classes = css_to_tailwind(css_string)
-# pyperclip.copy(classes)
-# clear_tailwind('tailwind.txt')
+pyperclip.copy(classes)
+clear_tailwind('tailwind.txt')
 print(classes)
