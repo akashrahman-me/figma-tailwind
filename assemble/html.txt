@@ -1,385 +1,736 @@
-<div style="width: 1512px; height: 8120.81px; background: white; border-top-left-radius: 7.20px; border-top-right-radius: 7.20px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
-  <div style="align-self: stretch; height: 976.94px; padding-top: 254px; padding-bottom: 254px; padding-left: 169px; background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, black 100%); flex-direction: column; justify-content: center; align-items: flex-start; gap: 23px; display: flex">
-    <div style="height: 468.94px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
-      <div style="align-self: stretch; color: white; font-size: 90px; font-family: Anton; font-weight: 400; line-height: 103.50px; word-wrap: break-word">Boost your <br/>well-being with health <br/>executive program</div>
-      <div style="color: white; font-size: 25px; font-family: Inter; font-weight: 500; line-height: 27.89px; word-wrap: break-word">Transform your life with our comprehensive mental, physical, and <br/>nutritional wellness program</div>
-      <div style="width: 143.28px; padding-left: 24.68px; padding-right: 24.68px; padding-top: 15.97px; padding-bottom: 15.97px; background: white; justify-content: center; align-items: center; gap: 14.52px; display: inline-flex">
-        <div style="color: black; font-size: 21.78px; font-family: Inter; font-weight: 700; line-height: 24.30px; word-wrap: break-word">Join now</div>
+<div style="width: 1440px; height: 2168px; position: relative; background: #F9FAFB">
+  <div style="width: 1440px; height: 265px; left: 0px; top: 72px; position: absolute; background: #14573A"></div>
+  <div style="width: 634px; left: 403px; top: 424px; position: absolute; justify-content: flex-end; align-items: center; display: inline-flex">
+    <div style="justify-content: flex-end; align-items: center; display: flex">
+      <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">الزوار</div>
+        </div>
+        <div style="width: 16px; height: 16px; position: relative">
+          <div style="width: 14.33px; height: 13px; left: 0.83px; top: 1.50px; position: absolute; background: #384250"></div>
+        </div>
+      </div>
+      <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">الموظفون</div>
+        </div>
+        <div style="width: 16px; height: 16px; position: relative">
+          <div style="width: 15px; height: 12.67px; left: 0.50px; top: 1.83px; position: absolute; background: #384250"></div>
+        </div>
+      </div>
+      <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">أعضاء هيئة التدريس</div>
+        </div>
+        <div style="width: 16px; height: 16px; position: relative">
+          <div style="width: 15.67px; height: 11.67px; left: 0.17px; top: 2.17px; position: absolute; background: #384250"></div>
+        </div>
+      </div>
+      <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">الطلاب</div>
+        </div>
+        <div style="width: 16px; height: 16px; position: relative">
+          <div style="width: 13px; height: 14.33px; left: 1.50px; top: 0.83px; position: absolute; background: #384250"></div>
+        </div>
+      </div>
+      <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+          <div style="text-align: right; color: #161616; font-size: 14px; font-family: IBM Plex Sans; font-weight: 700; line-height: 20px; word-wrap: break-word">الكل</div>
+        </div>
+        <div style="width: 16px; height: 16px; position: relative">
+          <div style="width: 14.33px; height: 13.67px; left: 0.83px; top: 1.17px; position: absolute; background: #161616"></div>
+        </div>
+        <div style="width: 79px; padding-left: 16px; padding-right: 16px; left: 0px; top: 49px; position: absolute; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+          <div style="align-self: stretch; height: 3px; background: #1B8354; border-radius: 9999px"></div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 634px; height: 3px; left: 0px; top: 49px; position: absolute; background: #D2D6DB; border-radius: 9999px"></div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 948px; top: 588px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">خدمة طلب موعد</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 62px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الموظفون</div>
+      </div>
+      <div style="width: 113px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">أعضاء هيئة التدريس</div>
+      </div>
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 24px; padding-left: 8px; padding-right: 8px; left: 1003px; top: 688px; position: absolute; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
+    <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الزوار</div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 132px; top: 588px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">طلب زيارة</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 132px; top: 828px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">طلب زيارة إلى </div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 132px; top: 1068px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">طلب زيارة</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 132px; top: 1308px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">طلب زيارة</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 132px; top: 1548px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">طلب زيارة</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 540px; top: 588px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">الاطلاع على المكافآت</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 540px; top: 828px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">الاطلاع على المكافآت</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 540px; top: 1068px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">الاطلاع على المكافآت</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 540px; top: 1308px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">الاطلاع على المكافآت</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 540px; top: 1548px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">الاطلاع على المكافآت</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 948px; top: 828px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">خدمة الاعتذار عن مقرر</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 948px; top: 1068px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">خدمة الاعتذار عن مقرر</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 948px; top: 1308px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">خدمة الاعتذار عن مقرر</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 208px; padding: 16px; left: 948px; top: 1548px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+    <div style="align-self: stretch; height: 60px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 8px; display: flex">
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 18px; font-family: IBM Plex Sans; font-weight: 700; line-height: 28px; word-wrap: break-word">خدمة الاعتذار عن مقرر</div>
+      <div style="align-self: stretch; text-align: right; color: #1F2A37; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
+    </div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="width: 50px; padding-left: 8px; padding-right: 8px; background: #F9FAFB; border-radius: 4px; border: 1px #E5E7EB solid; justify-content: center; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: center; color: #1F2A37; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الطلاب</div>
+      </div>
+    </div>
+    <div style="align-self: stretch; height: 44px; flex-direction: column; justify-content: center; align-items: flex-end; gap: 4px; display: flex">
+      <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+          <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+          <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+        </div>
+        <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      </div>
+      <div style="color: #4D5761; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">12 تقيم</div>
+    </div>
+  </div>
+  <div style="height: 72px; padding-left: 32px; padding-right: 32px; left: 0px; top: 0px; position: absolute; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: center; display: flex">
+        <div style="height: 72px; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; flex-direction: column; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
+          <div style="width: 24px; height: 24px; position: relative">
+            <div style="width: 20.50px; height: 20.50px; left: 1.75px; top: 1.75px; position: absolute; background: #161616"></div>
+          </div>
+          <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div style="text-align: right; color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 500; line-height: 24px; word-wrap: break-word">Login</div>
+          </div>
+        </div>
+      </div>
+      <div style="flex: 1 1 0; height: 72px; justify-content: flex-end; align-items: center; gap: 16px; display: flex"></div>
+    </div>
+  </div>
+  <div style="width: 602px; left: 435px; top: 174px; position: absolute; text-align: center; color: white; font-size: 48px; font-family: IBM Plex Sans; font-weight: 700; line-height: 60px; word-wrap: break-word">دليل الخدمات الإلكترونية </div>
+  <div style="width: 1440px; padding-left: 32px; padding-right: 32px; left: 0px; top: 1984px; position: absolute; background: #F3F4F6; justify-content: center; align-items: flex-start; display: inline-flex">
+    <div style="flex: 1 1 0; padding-top: 40px; padding-bottom: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 48px; display: inline-flex">
+      <div style="align-self: stretch; padding-top: 16px; padding-bottom: 16px; justify-content: flex-end; align-items: center; gap: 24px; display: inline-flex">
+        <div style="opacity: 0.70; justify-content: flex-end; align-items: center; gap: 16px; display: flex">
+          <div style="width: 106px; height: 42px; position: relative">
+            <img style="width: 106px; height: 42px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/106x42" />
+          </div>
+        </div>
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+          <div style="align-self: stretch; justify-content: flex-end; align-items: flex-start; gap: 16px; display: inline-flex">
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex"></div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">البيانات المفتوحة</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">البريد الإلكتروني</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">بوابة الزوار</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">بوابة الدخول الموحد </div>
+            </div>
+          </div>
+          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 8px; display: flex">
+            <div style="justify-content: flex-end; align-items: flex-start; display: inline-flex">
+              <div style="text-align: right; color: #161616; font-size: 14px; font-family: IBM Plex Sans; font-weight: 600; line-height: 20px; word-wrap: break-word">جميع الحقوق محفوظة  © 2024</div>
+            </div>
+            <div style="justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+              <div style="color: #384250; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">سياسة الخصوصية</div>
+              <div style="color: #384250; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">شروط الاستخدام</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div style="align-self: stretch; height: 2646px; padding-top: 152px; padding-bottom: 152px; padding-left: 169px; background: white; flex-direction: column; justify-content: center; align-items: flex-start; gap: 182px; display: flex">
-    <div style="align-self: stretch; height: 723px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 41px; display: flex">
-      <div style="justify-content: flex-start; align-items: flex-start; gap: 202px; display: inline-flex">
-        <div style="width: 831px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
-          <div style="align-self: stretch; color: black; font-size: 60px; font-family: Anton; font-weight: 400; line-height: 69px; word-wrap: break-word">About the Program</div>
-          <div style="color: black; font-size: 25px; font-family: Inter; font-weight: 500; line-height: 27.89px; word-wrap: break-word">Transform your life with our comprehensive mental, physical, and <br/>nutritional wellness program</div>
-        </div>
-        <div style="height: 55.94px; padding-left: 24.68px; padding-right: 24.68px; padding-top: 15.97px; padding-bottom: 15.97px; background: #F0F0F0; justify-content: center; align-items: center; gap: 14.52px; display: flex">
-          <div style="color: black; font-size: 21.78px; font-family: Inter; font-weight: 700; line-height: 24.30px; word-wrap: break-word">Join now</div>
-        </div>
+  <img style="width: 181px; height: 66px; left: 1224px; top: 6px; position: absolute" src="https://via.placeholder.com/181x66" />
+  <img style="width: 141px; height: 45px; left: 200px; top: 2060px; position: absolute" src="https://via.placeholder.com/141x45" />
+</div>
+
+<div style="width: 1440px; height: 2188px; position: relative; background: white">
+  <div style="width: 1440px; height: 2004px; left: 0px; top: 0px; position: absolute; background: #F9FAFB"></div>
+  <div style="width: 1440px; height: 265px; left: 0px; top: 72px; position: absolute; background: #14573A"></div>
+  <div style="height: 200px; left: 1134px; top: 393px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+        <div style="text-align: right; color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 600; line-height: 24px; word-wrap: break-word">وصف الخدمة</div>
       </div>
-      <div style="width: 1176px; justify-content: center; align-items: flex-start; gap: 32px; display: inline-flex">
-        <div style="width: 831px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Mental Resilience</div>
-          <div style="width: 74px; height: 81px; left: 780px; top: 421.68px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: white"></div>
-        </div>
-        <div style="width: 831px; height: 532px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Physical Fitness</div>
-          <div style="width: 103px; height: 103px; left: 784px; top: 408.68px; position: absolute; transform: rotate(180deg); transform-origin: 0 0">
-            <div style="width: 83.69px; height: 42.80px; left: 9.65px; top: 12.88px; position: absolute; background: white"></div>
-            <div style="width: 90.12px; height: 49.25px; left: 6.44px; top: 40.89px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="width: 831px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)"></div>
-          <div style="width: 220px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Sleep Optimization</div>
-          <div style="width: 102px; height: 102px; left: 687px; top: 411.68px; position: absolute">
-            <div style="width: 102px; height: 102px; left: 0px; top: 0px; position: absolute">
-              <div style="width: 102px; height: 102px; left: 0px; top: 0px; position: absolute"></div>
-              <div style="width: 80.75px; height: 80.75px; left: 10.62px; top: 10.62px; position: absolute; background: white"></div>
-            </div>
-          </div>
-        </div>
-        <div style="width: 831px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Nutrition</div>
-          <div style="width: 103px; height: 103px; left: 682px; top: 410.68px; position: absolute">
-            <div style="width: 85.83px; height: 77.25px; left: 8.58px; top: 12.88px; position: absolute">
-              <div style="width: 85.83px; height: 77.25px; left: 0px; top: 0px; position: absolute">
-                <div style="width: 85.83px; height: 49.35px; left: 0px; top: 27.90px; position: absolute; background: white; border: 4px white solid"></div>
-                <div style="width: 7.65px; height: 10.83px; left: 22.41px; top: 42.97px; position: absolute; border: 4px black solid"></div>
-                <div style="width: 70.81px; height: 27.90px; left: 7.51px; top: 0px; position: absolute; border: 4px white solid"></div>
-              </div>
-              <div style="width: 103px; height: 103px; left: -8.58px; top: -12.88px; position: absolute; background: white"></div>
-            </div>
-          </div>
-        </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 14.33px; height: 14.33px; left: 0.83px; top: 0.83px; position: absolute; background: #161616"></div>
+      </div>
+      <div style="height: 40px; padding-top: 8px; padding-bottom: 8px; left: 147px; top: 0px; position: absolute; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+        <div style="width: 3px; flex: 1 1 0; background: #1B8354; border-radius: 9999px"></div>
       </div>
     </div>
-    <div style="align-self: stretch; height: 532px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 41px; display: flex">
-      <div style="width: 1176px; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
-        <div style="width: 831px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Mental Resilience</div>
-        </div>
-        <div style="width: 831px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Nutrition</div>
-        </div>
-        <div style="width: 831px; background-image: url(https://via.placeholder.com/831x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)"></div>
-          <div style="width: 220px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Sleep Optimization</div>
-        </div>
+    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+        <div style="text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">تفاصيل الخدمة</div>
+      </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 12.33px; height: 14.33px; left: 1.83px; top: 0.83px; position: absolute; background: #384250"></div>
       </div>
     </div>
-    <div style="align-self: stretch; height: 723px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 41px; display: flex">
-      <div style="justify-content: flex-start; align-items: flex-start; gap: 202px; display: inline-flex">
-        <div style="width: 831px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
-          <div style="align-self: stretch; color: black; font-size: 60px; font-family: Anton; font-weight: 400; line-height: 69px; word-wrap: break-word">Meet our experts</div>
-          <div style="color: black; font-size: 25px; font-family: Inter; font-weight: 500; line-height: 27.89px; word-wrap: break-word">Transform your life with our comprehensive mental, physical, and <br/>nutritional wellness program</div>
-        </div>
+    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+        <div style="text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">الشروط والمتطلبات</div>
       </div>
-      <div style="width: 1176px; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
-        <div style="width: 423px; background-image: url(https://via.placeholder.com/423x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Hollywood Hino</div>
-        </div>
-        <div style="width: 423px; background-image: url(https://via.placeholder.com/423x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 100%)"></div>
-          <div style="width: 218px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Jeremy<br/>Sheppelman</div>
-        </div>
-        <div style="width: 423px; background-image: url(https://via.placeholder.com/423x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Pratik<br/>Patel</div>
-        </div>
-        <div style="width: 423px; background-image: url(https://via.placeholder.com/423x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Kenneth Poucket</div>
-        </div>
-        <div style="width: 423px; background-image: url(https://via.placeholder.com/423x532); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-          <div style="align-self: stretch; height: 532px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          <div style="width: 201px; left: 43px; top: 47.68px; position: absolute; color: white; font-size: 36px; font-family: Inter; font-weight: 900; line-height: 40.16px; word-wrap: break-word">Dr.  Eric<br/>Smith</div>
-        </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 12.33px; height: 14.33px; left: 1.83px; top: 0.83px; position: absolute; background: #384250"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+        <div style="text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">خطوات التنفيذ</div>
+      </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 12.33px; height: 14.33px; left: 1.83px; top: 0.83px; position: absolute; background: #384250"></div>
+      </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: flex-start; display: flex">
+        <div style="text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">خدمة المستفيدين</div>
+      </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 14.33px; height: 14.33px; left: 0.83px; top: 0.83px; position: absolute; background: #384250"></div>
       </div>
     </div>
   </div>
-  <div style="left: 168.81px; top: 92.38px; position: absolute; justify-content: center; align-items: center; gap: 230px; display: inline-flex">
-    <div style="justify-content: flex-start; align-items: flex-end; gap: 10px; display: flex">
-      <div style="width: 59.42px; height: 37.62px; background: white; border: 5.09px solid"></div>
-      <div style="color: white; font-size: 31.14px; font-family: Inter; font-weight: 900; word-wrap: break-word">Xenios Health</div>
-      <div style="padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; left: 212.19px; top: 32.88px; position: absolute; transform: rotate(-7deg); transform-origin: 0 0; background: #F6F6F2; border-radius: 29.08px; justify-content: center; align-items: center; gap: 11.19px; display: flex">
-        <div style="color: black; font-size: 18.05px; font-family: Inter; font-weight: 700; word-wrap: break-word">with HINO</div>
+  <div style="width: 305px; height: 182px; left: 0px; top: 114px; position: absolute">
+    <div style="width: 305px; height: 182px; left: 0px; top: 0px; position: absolute; background: #FCFCFD; box-shadow: 0px 0.8486647009849548px 1.6973294019699097px rgba(16, 24, 40, 0.05); border-top-left-radius: 13.58px; border-top-right-radius: 13.58px"></div>
+    <div style="left: 186px; top: 130px; position: absolute; text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 32px; word-wrap: break-word">3344 مستخدم</div>
+    <div style="left: 115px; top: 96px; position: absolute; text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 700; line-height: 32px; word-wrap: break-word">عدد مستخدمي الخدمة</div>
+    <div style="left: 180px; top: 16px; position: absolute; text-align: right; color: #384250; font-size: 16px; font-family: IBM Plex Sans; font-weight: 700; line-height: 32px; word-wrap: break-word">تقييم الخدمة</div>
+    <div style="width: 136px; height: 24px; left: 134px; top: 60px; position: absolute; border-radius: 4px; justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+      <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+      <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px">
+        <div style="width: 11.50px; height: 22.50px; left: 0.50px; top: 0px; position: absolute; background: #DBA102; border-radius: 1px"></div>
+        <div style="width: 13px; height: 22.50px; left: 25px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #E5E7EB; border-radius: 1px"></div>
+      </div>
+      <div style="width: 24px; height: 24px; position: relative; border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 9999px; border-bottom-left-radius: 1px"></div>
+    </div>
+  </div>
+  <div style="width: 886px; height: 1575px; padding: 16px; left: 133px; top: 393px; position: absolute; background: white; border-radius: 16px; border: 1px #D2D6DB solid"></div>
+  <div style="height: 24px; padding-left: 8px; padding-right: 8px; left: 837px; top: 740px; position: absolute; background: #ECFDF3; border-radius: 9999px; border: 1px #ABEFC6 solid; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
+    <div style="text-align: center; color: #085D3A; font-size: 12px; font-family: IBM Plex Sans; font-weight: 500; line-height: 18px; word-wrap: break-word">الزوار</div>
+  </div>
+  <div style="left: 847px; top: 441px; position: absolute; text-align: right; color: #0F172A; font-size: 21px; font-family: IBM Plex Sans; font-weight: 700; line-height: 16.84px; word-wrap: break-word">وصف الخدمة</div>
+  <div style="left: 802px; top: 1654px; position: absolute; text-align: right; color: #0F172A; font-size: 21px; font-family: IBM Plex Sans; font-weight: 700; line-height: 16.84px; word-wrap: break-word">خدمة المستفيدين</div>
+  <div style="left: 457px; top: 1812px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">الهاتف</div>
+  <div style="left: 405px; top: 1845px; position: absolute; text-align: center; color: #737373; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 34px; word-wrap: break-word">+966666666</div>
+  <div style="left: 842px; top: 1812px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">الموقع</div>
+  <div style="left: 835px; top: 1845px; position: absolute; text-align: center; color: #737373; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 34px; word-wrap: break-word">live.com</div>
+  <div style="left: 407px; top: 1744px; position: absolute; text-align: center; color: #737373; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 34px; word-wrap: break-word">p@live.com</div>
+  <div style="left: 395px; top: 1711px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">البريد الإلكتروني</div>
+  <div style="left: 769px; top: 1744px; position: absolute; text-align: center; color: #737373; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 34px; word-wrap: break-word"> تقنية المعلومات</div>
+  <div style="left: 735px; top: 1711px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">الجهة المقدمة للخدمة</div>
+  <div style="left: 788px; top: 1048px; position: absolute; text-align: right; color: #0F172A; font-size: 21px; font-family: IBM Plex Sans; font-weight: 700; line-height: 16.84px; word-wrap: break-word">الشروط والمتطلبات</div>
+  <div style="left: 781px; top: 1236px; position: absolute; text-align: right; color: #0F172A; font-size: 21px; font-family: IBM Plex Sans; font-weight: 700; line-height: 16.84px; word-wrap: break-word">خطوات تنفيذ الخدمة</div>
+  <div style="width: 525px; height: 243px; left: 443px; top: 1304px; position: absolute">
+    <div style="width: 123px; height: 29px; left: 402px; top: 0px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 28.51px; word-wrap: break-word">الدخول إلى بوابة .</div>
+      <div style="color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">-</div>
+    </div>
+    <div style="width: 459px; height: 29px; left: 66px; top: 39px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 28.51px; word-wrap: break-word">تسجيل الدخول عبر بوابة النفاذ الوطني الموحد أو تسجيل مستخدم جديد.</div>
+      <div style="color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">-</div>
+    </div>
+    <div style="width: 323px; height: 29px; left: 202px; top: 78px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 28.51px; word-wrap: break-word">بعد تسجيل الدخول، الضغط على حجز موعد جديد.</div>
+      <div style="color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">-</div>
+    </div>
+    <div style="width: 329px; height: 29px; left: 196px; top: 214px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 28.51px; word-wrap: break-word">ستصل رسالة نصية للمستفيد في حال تأكيد الحجز.</div>
+      <div style="color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">-</div>
+    </div>
+    <div style="width: 525px; height: 74px; left: 0px; top: 124px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
+      <div style="text-align: right; color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 28.51px; word-wrap: break-word">اتباع الخطوات المطلوبة: اختيار مقدم الخدمة، تحديد الخدمة، تحديد التاريخ والوقت،<br/>تعبئة حقل سبب الحجز و الضغط على تأكيد لتأكيد حجز الموعد.</div>
+      <div style="color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 24px; word-wrap: break-word">-</div>
+    </div>
+  </div>
+  <div style="left: 830px; top: 657px; position: absolute; text-align: right; color: #0F172A; font-size: 21px; font-family: IBM Plex Sans; font-weight: 700; line-height: 16.84px; word-wrap: break-word">تفاصيل الخدمة</div>
+  <div style="width: 773px; left: 195px; top: 486.23px; position: absolute; text-align: right; color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">خدمة إلكترونية تمكن المستفيد من حجز موعده إلكتروني، عبر نظام موعد وإدارة المواعيد بإلغاء الموعد والتأكد من حالة الموعد.</div>
+  <div style="left: 920px; top: 1089.23px; position: absolute; text-align: right; color: #334155; font-size: 16px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">لا يوجد.</div>
+  <div style="width: 773px; height: 1px; left: 195px; top: 605px; position: absolute">
+    <div style="width: 773px; height: 1px; left: 773px; top: 1.26px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; border: 1px rgba(163, 163, 163, 0.50) solid"></div>
+  </div>
+  <div style="width: 773px; height: 1px; left: 195px; top: 955px; position: absolute">
+    <div style="width: 773px; height: 1px; left: 773px; top: 1.26px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; border: 1px rgba(163, 163, 163, 0.50) solid"></div>
+  </div>
+  <div style="width: 773px; height: 1px; left: 195px; top: 1175px; position: absolute">
+    <div style="width: 773px; height: 1px; left: 773px; top: 1.26px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; border: 1px rgba(163, 163, 163, 0.50) solid"></div>
+  </div>
+  <div style="width: 773px; height: 1px; left: 195px; top: 1603px; position: absolute">
+    <div style="width: 773px; height: 1px; left: 773px; top: 1.26px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; border: 1px rgba(163, 163, 163, 0.50) solid"></div>
+  </div>
+  <div style="left: 386px; top: 807px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">مدة تنفيذ الخدمة</div>
+  <div style="left: 771px; top: 799px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">الفيديو التعريفي</div>
+  <div style="left: 397px; top: 698px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 400; line-height: 36px; word-wrap: break-word">دليل المستخدم</div>
+  <div style="left: 766.50px; top: 699px; position: absolute; text-align: right; color: #334155; font-size: 18px; font-family: IBM Plex Sans; font-weight: 500; line-height: 36px; word-wrap: break-word">الفئة المستفيدة</div>
+  <div style="width: 24px; height: 24px; left: 924px; top: 719px; position: absolute">
+    <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
+    <img style="width: 24px; height: 12px; left: 0px; top: 6px; position: absolute" src="https://via.placeholder.com/24x12" />
+  </div>
+  <div style="left: 1245px; top: 113px; position: absolute; justify-content: flex-end; align-items: center; display: inline-flex">
+    <div style="padding-left: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+      <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: right; color: #9DA4AE; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 20px; word-wrap: break-word">تفاصيل الخدمة</div>
+      </div>
+      <div style="width: 16px; height: 16px; position: relative">
+        <div style="width: 4px; height: 8px; left: 6px; top: 4px; position: absolute; border: 1.50px #9DA4AE solid"></div>
       </div>
     </div>
-    <div style="justify-content: flex-start; align-items: center; gap: 36px; display: flex">
-      <div style="color: white; font-size: 15px; font-family: Inter; font-weight: 500; line-height: 16.73px; word-wrap: break-word">About</div>
-      <div style="color: white; font-size: 15px; font-family: Inter; font-weight: 500; line-height: 16.73px; word-wrap: break-word">Services</div>
-      <div style="color: white; font-size: 15px; font-family: Inter; font-weight: 500; line-height: 16.73px; word-wrap: break-word">Pricing</div>
-    </div>
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-      <div style="height: 41px; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: white; justify-content: center; align-items: center; gap: 10px; display: flex">
-        <div style="color: black; font-size: 15px; font-family: Inter; font-weight: 500; line-height: 16.73px; word-wrap: break-word">Sign up</div>
-      </div>
-      <div style="height: 41px; padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; border: 1px white solid; justify-content: center; align-items: center; gap: 10px; display: flex">
-        <div style="color: white; font-size: 15px; font-family: Inter; font-weight: 500; line-height: 16.73px; word-wrap: break-word">Login</div>
+    <div style="padding-left: 4px; justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+      <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+        <div style="text-align: right; color: white; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 20px; word-wrap: break-word">الرئيسية</div>
       </div>
     </div>
   </div>
-  <div style="padding-left: 20px; padding-right: 20px; padding-top: 18px; padding-bottom: 18px; left: 1140px; top: 836px; position: absolute; background: rgba(255, 255, 255, 0.26); box-shadow: 0px 4px 11.899999618530273px rgba(0, 0, 0, 0.25); backdrop-filter: blur(8px); justify-content: center; align-items: center; gap: 11.19px; display: inline-flex">
-    <div><span style="color: #D0D0D0; font-size: 18.05px; font-family: Inter; font-weight: 700; word-wrap: break-word">Presenting<br/>Number Excutive Coach<br/>in Hollywood</span><span style="color: white; font-size: 18.05px; font-family: Inter; font-weight: 700; word-wrap: break-word"> - HINO</span></div>
-  </div>
-  <div style="align-self: stretch; height: 1055.63px; padding-top: 114px; padding-bottom: 114px; padding-left: 168px; background: #403939; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-    <div style="height: 827.63px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-      <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 410px; display: inline-flex">
-        <div style="color: #F6F6F1; font-size: 60px; font-family: Anton; font-weight: 400; line-height: 69px; word-wrap: break-word">Key features of our <br/>program</div>
-        <div style="color: #F6F6F1; font-size: 25px; font-family: Inter; font-weight: 500; line-height: 27.89px; word-wrap: break-word">Detailed breakdown of <br/>the program's key features</div>
-      </div>
-      <div style="justify-content: flex-start; align-items: flex-start; gap: 175px; display: inline-flex">
-        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 74.96px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="width: 32px; height: 32px; position: relative">
-              <div style="width: 25.33px; height: 25.33px; left: 3.33px; top: 3.33px; position: absolute">
-                <div style="width: 25.33px; height: 25.33px; left: 0px; top: 0px; position: absolute">
-                  <div style="width: 25.33px; height: 16px; left: -0px; top: 9.33px; position: absolute; background: white; border: 2.67px white solid"></div>
-                  <div style="width: 25.33px; height: 7.33px; left: -0px; top: 2px; position: absolute; border: 2.67px white solid"></div>
-                  <div style="width: 12px; height: 8px; left: 7.33px; top: 13.33px; position: absolute; border: 2.67px black solid"></div>
-                  <div style="width: 10.67px; height: 5.33px; left: 7.33px; top: 0px; position: absolute; border: 2.67px white solid"></div>
-                </div>
-                <div style="width: 32px; height: 32px; left: -3.33px; top: -3.33px; position: absolute; background: #F6F6F1"></div>
-              </div>
-            </div>
-            <div style="width: 265.86px; height: 95.95px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Personalized plans (mental, nutrition, fitness, sleep)</div>
-          </div>
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="width: 31.89px; height: 31.89px; position: relative">
-              <div style="width: 26.58px; height: 26.57px; left: 2.66px; top: 2.66px; position: absolute; background: #F6F6F1"></div>
-            </div>
-            <div style="width: 265.86px; height: 88.95px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Monthly sessions with celebrities/pro athletes</div>
-          </div>
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 105.94px; display: flex">
-            <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-              <div style="width: 32px; height: 32px; position: relative">
-                <div style="width: 26.67px; height: 22.67px; left: 2.67px; top: 4px; position: absolute; background: #F6F6F1"></div>
-              </div>
-              <div style="width: 265.86px; height: 95.95px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Health data <br/>and biomarker analysis</div>
-            </div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 92px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="width: 50px; height: 50px; position: relative">
-              <div style="width: 44.24px; height: 39.07px; left: 2.64px; top: 7.81px; position: absolute; background: #F6F6F1"></div>
-            </div>
-            <div style="width: 265.86px; height: 65.97px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Automated daily touchpoint</div>
-          </div>
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="width: 45.77px; height: 24.97px; border: 3.12px #F6F6F1 solid"></div>
-            <div style="width: 265.86px; height: 95.95px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Community engagement and support</div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 113.36px; display: inline-flex">
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="width: 36px; height: 36px; position: relative">
-              <div style="width: 30px; height: 30px; left: 3px; top: 3px; position: absolute; background: #F6F6F1"></div>
-            </div>
-            <div style="width: 216.88px; height: 57.97px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Weekly group sessions</div>
-          </div>
-          <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.99px; display: flex">
-            <div style="color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 900; line-height: 29.98px; word-wrap: break-word">1 ON 1</div>
-            <div style="width: 265.86px; height: 59.97px; color: #F6F6F1; font-size: 29.98px; font-family: Inter; font-weight: 600; line-height: 29.98px; word-wrap: break-word">Optional one-on-one sessions</div>
-          </div>
-        </div>
-      </div>
+  <div style="width: 602px; left: 804px; top: 168px; position: absolute; text-align: right; color: white; font-size: 36px; font-family: IBM Plex Sans; font-weight: 700; line-height: 60px; word-wrap: break-word">التحقق من اسم المستخدم </div>
+  <div style="height: 40px; padding-left: 16px; padding-right: 16px; left: 1305px; top: 263px; position: absolute; border-radius: 4px; overflow: hidden; border: 2px white solid; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
+    <div style="justify-content: center; align-items: center; display: flex">
+      <div style="color: white; font-size: 16px; font-family: IBM Plex Sans; font-weight: 500; line-height: 24px; word-wrap: break-word">بدء الخدمة</div>
     </div>
   </div>
-  <div style="align-self: stretch; padding-top: 145px; padding-bottom: 145px; background: #F6F6F1; justify-content: center; align-items: flex-start; gap: 103px; display: inline-flex">
-    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: center; gap: 62px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 103px; display: inline-flex">
-        <div style="border-radius: 22px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-          <div style="width: 693px; text-align: center; color: rgba(64, 57, 57, 0.15); font-size: 31px; font-family: Inter; font-weight: 600; line-height: 38.13px; word-wrap: break-word">"Xenios Health is changing people health, mind, body and soul. I will personally encourage from my experience working with Xenios and Hino, is just life changing"</div>
-          <div style="border-radius: 16.36px; justify-content: flex-start; align-items: center; gap: 7.55px; display: inline-flex">
-            <img style="width: 59.14px; height: 59.14px; border-radius: 9999px" src="https://via.placeholder.com/59x59" />
-            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0.99px; display: inline-flex">
-              <div style="width: 107.75px; height: 24.37px; color: rgba(64, 57, 57, 0.15); font-size: 19.76px; font-family: Inter; font-weight: 900; line-height: 22.04px; word-wrap: break-word">Kevin Hart</div>
-              <div style="color: rgba(64, 57, 57, 0.15); font-size: 14.79px; font-family: Inter; font-weight: 500; line-height: 16.50px; word-wrap: break-word">Founder at Heartbeat</div>
-            </div>
+  <div style="height: 72px; padding-left: 32px; padding-right: 32px; left: 0px; top: 0px; position: absolute; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+    <div style="align-self: stretch; justify-content: space-between; align-items: center; display: inline-flex">
+      <div style="justify-content: flex-start; align-items: center; display: flex">
+        <div style="height: 72px; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; border-radius: 4px; flex-direction: column; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
+          <div style="width: 24px; height: 24px; position: relative">
+            <div style="width: 20.50px; height: 20.50px; left: 1.75px; top: 1.75px; position: absolute; background: #161616"></div>
           </div>
-        </div>
-        <div style="border-radius: 22px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-          <div style="width: 693px; text-align: center; color: #403939; font-size: 31px; font-family: Inter; font-weight: 600; line-height: 38.13px; word-wrap: break-word">"Xenios Health is changing people health, mind, body and soul. I will personally encourage from my experience working with Xenios and Hino, is just life changing"</div>
-          <div style="border-radius: 16.36px; justify-content: flex-start; align-items: center; gap: 7.55px; display: inline-flex">
-            <img style="width: 59.14px; height: 59.14px; border-radius: 9999px" src="https://via.placeholder.com/59x59" />
-            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0.99px; display: inline-flex">
-              <div style="width: 107.75px; height: 24.37px; color: #403939; font-size: 19.76px; font-family: Inter; font-weight: 900; line-height: 22.04px; word-wrap: break-word">Kevin Hart</div>
-              <div style="color: #403939; font-size: 14.79px; font-family: Inter; font-weight: 500; line-height: 16.50px; word-wrap: break-word">Founder at Heartbeat</div>
-            </div>
-          </div>
-        </div>
-        <div style="border-radius: 22px; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-          <div style="width: 693px; text-align: center; color: rgba(64, 57, 57, 0.15); font-size: 31px; font-family: Inter; font-weight: 600; line-height: 38.13px; word-wrap: break-word">"Xenios Health is changing people health, mind, body and soul. I will personally encourage from my experience working with Xenios and Hino, is just life changing"</div>
-          <div style="border-radius: 16.36px; justify-content: flex-start; align-items: center; gap: 7.55px; display: inline-flex">
-            <img style="width: 59.14px; height: 59.14px; border-radius: 9999px" src="https://via.placeholder.com/59x59" />
-            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0.99px; display: inline-flex">
-              <div style="width: 107.75px; height: 24.37px; color: rgba(64, 57, 57, 0.15); font-size: 19.76px; font-family: Inter; font-weight: 900; line-height: 22.04px; word-wrap: break-word">Kevin Hart</div>
-              <div style="color: rgba(64, 57, 57, 0.15); font-size: 14.79px; font-family: Inter; font-weight: 500; line-height: 16.50px; word-wrap: break-word">Founder at Heartbeat</div>
-            </div>
+          <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex">
+            <div style="text-align: right; color: #161616; font-size: 16px; font-family: IBM Plex Sans; font-weight: 500; line-height: 24px; word-wrap: break-word">Login</div>
           </div>
         </div>
       </div>
-      <div style="padding-left: 24.68px; padding-right: 24.68px; padding-top: 15.97px; padding-bottom: 15.97px; border: 1px #403939 solid; justify-content: center; align-items: center; gap: 14.52px; display: inline-flex">
-        <div style="color: #575150; font-size: 21.78px; font-family: Inter; font-weight: 700; line-height: 24.30px; word-wrap: break-word">Learn more </div>
-      </div>
+      <div style="flex: 1 1 0; height: 72px; justify-content: flex-end; align-items: center; gap: 16px; display: flex"></div>
     </div>
   </div>
-  <div style="align-self: stretch; height: 1270.81px; padding-top: 114px; padding-bottom: 114px; padding-left: 168px; background: #403939; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-    <div style="height: 1042.81px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-      <div style="align-self: stretch; height: 230px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 36px; display: flex">
-        <div style="color: #F6F6F1; font-size: 60px; font-family: Anton; font-weight: 400; line-height: 69px; word-wrap: break-word">Join us today! Lets change<br/>our life’s togethere</div>
-        <div style="color: #F6F6F1; font-size: 25px; font-family: Inter; font-weight: 500; line-height: 27.89px; word-wrap: break-word">Detailed breakdown of <br/>the program's key features</div>
-      </div>
-      <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 11.75px; display: inline-flex">
-        <div style="padding-top: 64.28px; padding-bottom: 50.70px; padding-left: 41.78px; padding-right: 41.78px; background: white; box-shadow: 0px 3.6214492321014404px 3.6214492321014404px rgba(0, 0, 0, 0.25); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 44.57px; display: inline-flex">
-          <div style="width: 214.47px; height: 61.28px; text-align: center; color: black; font-size: 55.71px; font-family: Anton; font-weight: 400; line-height: 25.35px; word-wrap: break-word">$3,000/m</div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9.96px; display: flex">
-            <div style="text-align: center; color: black; font-size: 40.74px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">Starter</div>
-            <div style="color: black; font-size: 18.11px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Billed monthly. Option for yearly</div>
+  <img style="width: 135px; height: 40.37px; left: 1273px; top: 16px; position: absolute" src="https://via.placeholder.com/135x40" />
+  <div style="width: 1440px; padding-left: 32px; padding-right: 32px; left: 0px; top: 2004px; position: absolute; background: #F3F4F6; justify-content: center; align-items: flex-start; display: inline-flex">
+    <div style="flex: 1 1 0; padding-top: 40px; padding-bottom: 24px; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 48px; display: inline-flex">
+      <div style="align-self: stretch; padding-top: 16px; padding-bottom: 16px; justify-content: flex-end; align-items: center; gap: 24px; display: inline-flex">
+        <div style="opacity: 0.70; justify-content: flex-end; align-items: center; gap: 16px; display: flex">
+          <div style="width: 106px; height: 42px; position: relative">
+            <img style="width: 106px; height: 42px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/106x42" />
           </div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 7.24px; display: flex">
-            <div style="text-align: center; color: black; font-size: 18.11px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">What’s included</div>
-            <div style="width: 277.61px; color: black; font-size: 15.58px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Personalized plans (mental, nutrition, fitness, sleep)<br/>Automated daily touchpoint<br/>Weekly group sessions<br/>Monthly sessions with celebrities/pro athletes<br/>Community engagement and support<br/>Optional one-on-one sessions<br/> More</div>
-          </div>
-          <div style="padding-left: 101.20px; padding-right: 101.20px; padding-top: 14.83px; padding-bottom: 14.83px; background: #403939; border: 0.93px #403939 solid; justify-content: center; align-items: center; gap: 13.48px; display: inline-flex">
-            <div style="color: white; font-size: 18.57px; font-family: Inter; font-weight: 700; line-height: 20.72px; word-wrap: break-word">Get Started</div>
+          <div style="width: 106px; height: 42px; position: relative">
+            <img style="width: 106px; height: 42px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/106x42" />
           </div>
         </div>
-        <div style="padding-top: 64.28px; padding-bottom: 50.70px; padding-left: 41.78px; padding-right: 41.78px; background: white; box-shadow: 0px 3.6214492321014404px 3.6214492321014404px rgba(0, 0, 0, 0.25); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 44.57px; display: inline-flex">
-          <div style="width: 214.47px; height: 61.28px; text-align: center; color: black; font-size: 55.71px; font-family: Anton; font-weight: 400; line-height: 25.35px; word-wrap: break-word">$6,000/m</div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9.96px; display: flex">
-            <div style="text-align: center; color: black; font-size: 40.74px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">Growth</div>
-            <div style="color: black; font-size: 18.11px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Billed monthly. Option for yearly</div>
-          </div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 7.24px; display: flex">
-            <div style="text-align: center; color: black; font-size: 18.11px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">What’s included</div>
-            <div style="width: 277.61px; color: black; font-size: 15.58px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Personalized plans (mental, nutrition, fitness, sleep)<br/>Automated daily touchpoint<br/>Weekly group sessions<br/>Monthly sessions with celebrities/pro athletes<br/>Community engagement and support<br/>Optional one-on-one sessions<br/> More</div>
-          </div>
-          <div style="padding-left: 101.20px; padding-right: 101.20px; padding-top: 14.83px; padding-bottom: 14.83px; background: #403939; border: 0.93px #403939 solid; justify-content: center; align-items: center; gap: 13.48px; display: inline-flex">
-            <div style="color: white; font-size: 18.57px; font-family: Inter; font-weight: 700; line-height: 20.72px; word-wrap: break-word">Get Started</div>
-          </div>
-        </div>
-        <div style="padding-top: 64.28px; padding-bottom: 50.70px; padding-left: 41.78px; padding-right: 41.78px; background: white; box-shadow: 0px 3.6214492321014404px 3.6214492321014404px rgba(0, 0, 0, 0.25); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 44.57px; display: inline-flex">
-          <div style="width: 214.47px; height: 61.28px; text-align: center; color: black; font-size: 55.71px; font-family: Anton; font-weight: 400; line-height: 25.35px; word-wrap: break-word">$9,000/m</div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 9.96px; display: flex">
-            <div style="text-align: center; color: black; font-size: 40.74px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">Attention</div>
-            <div style="color: black; font-size: 18.11px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Billed monthly. Option for yearly</div>
-          </div>
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 47.98px; display: flex">
-            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 7.24px; display: flex">
-              <div style="text-align: center; color: black; font-size: 18.11px; font-family: Inter; font-weight: 700; line-height: 25.35px; word-wrap: break-word">What’s included</div>
-              <div style="width: 277.61px; color: black; font-size: 15.58px; font-family: Inter; font-weight: 400; line-height: 25.35px; word-wrap: break-word">Personalized plans (mental, nutrition, fitness, sleep)<br/>Automated daily touchpoint<br/>Weekly group sessions<br/>Monthly sessions with celebrities/pro athletes<br/>Community engagement and support<br/>Optional one-on-one sessions<br/> More</div>
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: inline-flex">
+          <div style="align-self: stretch; justify-content: flex-end; align-items: flex-start; gap: 16px; display: inline-flex">
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right"></div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">البيانات المفتوحة</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">البريد الإلكتروني</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">بوابة الزوار</div>
+            </div>
+            <div style="justify-content: flex-end; align-items: center; gap: 4px; display: flex">
+              <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; text-decoration: underline; line-height: 20px; word-wrap: break-word">بوابة الدخول الموحد </div>
             </div>
           </div>
-          <div style="padding-left: 101.20px; padding-right: 101.20px; padding-top: 14.83px; padding-bottom: 14.83px; background: #403939; border: 0.93px #403939 solid; justify-content: center; align-items: center; gap: 13.48px; display: inline-flex">
-            <div style="color: white; font-size: 18.57px; font-family: Inter; font-weight: 700; line-height: 20.72px; word-wrap: break-word">Get Started</div>
+          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 8px; display: flex">
+            <div style="justify-content: flex-end; align-items: flex-start; display: inline-flex">
+              <div style="text-align: right; color: #161616; font-size: 14px; font-family: IBM Plex Sans; font-weight: 600; line-height: 20px; word-wrap: break-word">جميع الحقوق محفوظة © 2024</div>
+            </div>
+            <div style="justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+              <div style="color: #384250; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">سياسة الخصوصية</div>
+              <div style="color: #384250; font-size: 12px; font-family: IBM Plex Sans; font-weight: 400; word-wrap: break-word">شروط الاستخدام</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div style="align-self: stretch; height: 926.65px; padding-top: 114px; padding-bottom: 114px; padding-left: 168px; background: #F6F6F1; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-    <div style="height: 69px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 103px; display: flex">
-      <div style="align-self: stretch; height: 69px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 36px; display: flex">
-        <div style="color: #403939; font-size: 60px; font-family: Anton; font-weight: 400; line-height: 69px; word-wrap: break-word">Checkout Whats up!  </div>
-      </div>
-    </div>
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 53.18px; display: inline-flex">
-      <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 33px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex">
-          <div style="width: 265.89px; height: 343.47px; background: #867554"></div>
-          <div style="width: 0px; height: 343.47px; border: 1.74px black solid"></div>
-          <div style="width: 295.53px; height: 343.47px; background: #867554; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8.72px; display: inline-flex">
-            <div style="width: 295.53px; height: 278.96px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          </div>
-          <div style="width: 175.22px; left: 37.49px; top: 41.57px; position: absolute; color: #FEFFBE; font-size: 31.38px; font-family: Inter; font-weight: 900; line-height: 35.01px; word-wrap: break-word">Video Session<br/>with Hino</div>
-        </div>
-        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.18px; display: flex">
-          <div style="width: 384.44px; color: #403939; font-size: 30.79px; font-family: Inter; font-weight: 700; line-height: 36.02px; word-wrap: break-word">Check out the session <br/>Hino had with Kevin Hart at <br/>his LA Gym</div>
-          <div style="color: #403939; font-size: 20.05px; font-family: Inter; font-weight: 400; text-decoration: underline; line-height: 23.46px; word-wrap: break-word">Watch the video</div>
-        </div>
-      </div>
-      <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 33px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex">
-          <div style="width: 265.89px; height: 343.47px; background: #9695D1"></div>
-          <div style="width: 0px; height: 343.47px; border: 1.74px black solid"></div>
-          <div style="width: 295.53px; height: 343.47px; background: #9695D1; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8.72px; display: inline-flex">
-            <div style="width: 295.53px; height: 278.96px; background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)"></div>
-          </div>
-          <div style="width: 183px; left: 37.41px; top: 41.16px; position: absolute; color: #FFBEBE; font-size: 31.38px; font-family: Inter; font-weight: 900; line-height: 35.01px; word-wrap: break-word">Video Session<br/>with Jeremy</div>
-        </div>
-        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 19.18px; display: flex">
-          <div style="width: 384.44px; color: #403939; font-size: 30px; font-family: Inter; font-weight: 700; line-height: 35.10px; word-wrap: break-word">Check out the <br/>session with Jeremy and Peter thiel </div>
-          <div style="color: #403939; font-size: 20.05px; font-family: Inter; font-weight: 400; text-decoration: underline; line-height: 23.46px; word-wrap: break-word">Watch the video</div>
-        </div>
-      </div>
+  <div style="padding: 12px; left: 912px; top: 707px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 23.50px; height: 17.50px; left: 0.25px; top: 3.25px; position: absolute; background: #1B8354"></div>
     </div>
   </div>
-  <div style="align-self: stretch; height: 615.69px; padding-bottom: 56px; background: #F6F6F1; flex-direction: column; justify-content: flex-start; align-items: center; gap: 77px; display: flex">
-    <div style="align-self: stretch; height: 288px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 57px; display: flex">
-      <div style="width: 1512px; height: 0px; border: 2px #E2E2E2 solid"></div>
-      <div style="padding-left: 170px; justify-content: flex-start; align-items: flex-start; gap: 424px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: flex-end; gap: 10px; display: flex">
-          <div style="width: 59.42px; height: 37.62px; background: #403939; border: 5.09px solid"></div>
-          <div style="color: #403939; font-size: 31.14px; font-family: Inter; font-weight: 900; word-wrap: break-word">Xenios Health</div>
-        </div>
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 112px; display: flex">
-          <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 900; word-wrap: break-word">Company</div>
-            <div style="width: 161px; color: #403939; font-size: 22px; font-family: Inter; font-weight: 500; word-wrap: break-word">About Program</div>
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 500; word-wrap: break-word">Our Experts</div>
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 500; word-wrap: break-word">Features</div>
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 500; word-wrap: break-word">Pricing</div>
-          </div>
-          <div style="width: 128.50px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: inline-flex">
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 900; word-wrap: break-word">Support</div>
-            <div style="align-self: stretch; color: #403939; font-size: 22px; font-family: Inter; font-weight: 500; word-wrap: break-word">Get in touch</div>
-          </div>
-        </div>
-      </div>
+  <div style="padding: 12px; left: 912px; top: 809px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 21.50px; height: 17.50px; left: 1.25px; top: 3.25px; position: absolute; background: #1B8354"></div>
     </div>
-    <div style="align-self: stretch; height: 194.69px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 34px; display: flex">
-      <div style="padding-right: 919px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 165px; display: flex">
-        <div style="justify-content: flex-start; align-items: flex-start; gap: 12.13px; display: inline-flex">
-          <div style="height: 46.69px; padding-left: 20.62px; padding-right: 20.62px; padding-top: 13.35px; padding-bottom: 13.35px; background: #403939; justify-content: center; align-items: center; gap: 12.13px; display: flex">
-            <div style="color: #F6F6F1; font-size: 18.20px; font-family: Inter; font-weight: 500; line-height: 20.30px; word-wrap: break-word">Sign up</div>
-          </div>
-          <div style="height: 46.69px; padding-left: 20.62px; padding-right: 20.62px; padding-top: 13.35px; padding-bottom: 13.35px; border: 1.21px #403939 solid; justify-content: center; align-items: center; gap: 12.13px; display: flex">
-            <div style="color: #403939; font-size: 18.20px; font-family: Inter; font-weight: 500; line-height: 20.30px; word-wrap: break-word">Login</div>
-          </div>
-        </div>
-      </div>
-      <div style="width: 1174px; height: 0px; border: 1px #717171 solid"></div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 156px; display: inline-flex">
-        <div style="justify-content: flex-start; align-items: center; gap: 28px; display: flex">
-          <div style="color: #403939; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Xenios Health</div>
-          <div style="width: 176px; height: 17px; color: #403939; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">English (United States)</div>
-        </div>
-        <div style="justify-content: flex-start; align-items: center; gap: 130px; display: flex">
-          <div style="justify-content: flex-start; align-items: center; gap: 32px; display: flex">
-            <div style="width: 103px; height: 17px; color: #403939; font-size: 16px; font-family: Archivo; font-weight: 500; word-wrap: break-word">Privacy Policy</div>
-            <div style="width: 138px; height: 15px; color: #403939; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Terms of Services</div>
-            <div style="width: 123px; height: 20px; color: #403939; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Cookie Settings</div>
-          </div>
-          <div style="justify-content: flex-start; align-items: center; gap: 17px; display: flex">
-            <div style="width: 29px; height: 29px; background: #403939"></div>
-            <div style="width: 25px; height: 20px; background: #403939"></div>
-            <div style="width: 23px; height: 23px; background: #403939"></div>
-            <div style="width: 21px; height: 23px; background: #403939"></div>
-          </div>
-        </div>
-      </div>
-      <div style="padding-right: 679px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-        <div style="color: #717171; font-size: 14px; font-family: Inter; font-weight: 500; word-wrap: break-word">Made with ❤️ from the United State and trademarked by Xenios Health Inc</div>
-      </div>
+  </div>
+  <div style="padding: 12px; left: 533px; top: 707px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 18.50px; height: 21.50px; left: 2.75px; top: 1.25px; position: absolute; background: #1B8354"></div>
     </div>
+  </div>
+  <div style="padding: 12px; left: 912px; top: 1718px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 19.50px; height: 21.50px; left: 2.25px; top: 1.25px; position: absolute; background: #1B8354"></div>
+    </div>
+  </div>
+  <div style="padding: 12px; left: 912px; top: 1821px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 20.50px; height: 20.50px; left: 1.75px; top: 1.75px; position: absolute; background: #1B8354"></div>
+    </div>
+  </div>
+  <div style="padding: 12px; left: 533px; top: 1718px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 21.50px; height: 18.50px; left: 1.25px; top: 2.75px; position: absolute; background: #1B8354"></div>
+    </div>
+  </div>
+  <div style="padding: 12px; left: 533px; top: 1821px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 21.50px; height: 21.50px; left: 1.25px; top: 1.25px; position: absolute; background: #1B8354"></div>
+    </div>
+  </div>
+  <div style="padding: 12px; left: 533px; top: 809px; position: absolute; background: #F3FCF6; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+    <div style="width: 24px; height: 24px; position: relative">
+      <div style="width: 21.50px; height: 21.50px; left: 1.25px; top: 1.25px; position: absolute; background: #1B8354"></div>
+    </div>
+  </div>
+  <div style="left: 422px; top: 741px; position: absolute; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+    <div style="width: 16px; height: 16px; position: relative">
+      <div style="width: 11.67px; height: 11.67px; left: 2.17px; top: 2.17px; position: absolute; background: #384250"></div>
+    </div>
+    <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 20px; word-wrap: break-word">قراءة الدليل</div>
+  </div>
+  <div style="left: 778px; top: 844px; position: absolute; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+    <div style="width: 16px; height: 16px; position: relative">
+      <div style="width: 11.67px; height: 11.67px; left: 2.17px; top: 2.17px; position: absolute; background: #384250"></div>
+    </div>
+    <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 20px; word-wrap: break-word">مشاهدة الفيديو</div>
+  </div>
+  <div style="left: 477px; top: 844px; position: absolute; justify-content: flex-end; align-items: center; gap: 4px; display: inline-flex">
+    <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 400; line-height: 20px; word-wrap: break-word">فوري</div>
   </div>
 </div>

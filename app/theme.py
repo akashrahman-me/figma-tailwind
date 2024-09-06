@@ -11,10 +11,11 @@ from intelligence.colors.classify_and_rank_colors import classify_and_rank_color
 from intelligence.colors.serialize_colors import serialize_colors
 from lib.echo import echo
 from lib.utils.remove_text_content import remove_text_content
-
+from lib.theme_gen.convert_tailwind import convert_tailwind
+from lib.theme_gen.font_imports import font_imports
 
 # Read the HTML file
-with open("assemble/html.txt", "r", encoding="utf-8") as file:
+with open("../assemble/html.txt", "r", encoding="utf-8") as file:
     html_content = "<body>" + file.read() + "</body>"
 html_content =  remove_text_content(html_content)
 
@@ -28,7 +29,7 @@ colors = serialize_colors(colors)
 # Filter style groups for box shadow
 shadow_groups = filter_style_groups(styles_str, ["box-shadow"])
 shadows = ""
-if(shadow_groups):
+if shadow_groups:
     shadows = box_shadow_sizes(css_object(shadow_groups))
 
 # Filter style groups for font size
@@ -45,16 +46,24 @@ font_family = format_font_families(font_weights)
 themeing = {
     "colors": colors,
     "fontSize": font_sizes,
-    "shadows": shadows,
+    "boxShadow": shadows,
     "fontFamily": font_family,
     "fontWeights": font_weights,
 }
 
 # Write the theme dictionary to a JSON file
-with open("assemble/_theme.json", "w") as file:
+with open("../assemble/_theme.json", "w") as file:
     try:
         file.write(json.dumps(themeing))
         print("Theme creation successful !")
+
+        with open("../assemble/tailwind.config.ts", 'w') as file:
+            file.write(convert_tailwind(themeing))
+
+        with open("../assemble/font-imports.ts", 'w') as file:
+            file.write(font_imports(font_weights))
     except Exception as e:
         print(e)
+
+
 

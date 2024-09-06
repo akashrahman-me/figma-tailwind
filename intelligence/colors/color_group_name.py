@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 # Load training data from JSON file
-with open("intelligence/colors/training_colors.json", "r") as f:
+with open("../intelligence/colors/training_colors.json", "r") as f:
   data = json.load(f)
 
 def hex_to_rgb(value):

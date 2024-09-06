@@ -3,7 +3,7 @@ from sklearn.metrics import pairwise_distances
 import webcolors
 import json
 
-with open("intelligence/colors/training_colors.json", "r") as f:
+with open("../intelligence/colors/training_colors.json", "r") as f:
   colors = json.load(f)
 
 def hex_to_rgb(color_hex):

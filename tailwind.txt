@@ -1,4 +1,7 @@
-D:/Endeavors/xenios/tailwind.config.ts
-text-left font-normal text-black font-inter items-start
+D:/Endeavors/e-service/tailwind.config.ts
+text-left text-gray-950 font-normal font-ibm-plex-sans items-start px-0 my-0 mx-0 m-0 p-0 gap-0 py-0
 
 
+font-size: 14px;
+line-height: 20px;
+gap: 10px var(--foobar, 20px);

@@ -2,7 +2,7 @@ import urllib.parse
 import requests
 import json
 
-with open('./storage/google_webfonts.json') as f:
+with open('../storage/google_webfonts.json') as f:
     google_webfonts = json.load(f)
 
 def check_google_fonts_availability(font_name):

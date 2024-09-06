@@ -20,56 +20,26 @@ def get_spacing_class(value, prefix, threshold = 0):
 
   return f"{prefix}-[{value}]"
 
+def simplify_value(x):
+    if all(y == x[0] for y in x):
+        x = [x[0]]
 
-def simplify_properties(padding_str):
-    # Initialize the dictionary with default values
-    padding_dict = {'pt': None, 'pr': None, 'pb': None, 'pl': None}
+    elif len(x) == 4:
+        if x[0] == x[2] and x[1] == x[3]:
+            x = [x[0], x[1]]
+        elif x[1] == x[3]:
+            x = [x[0], x[1], x[2]]
 
-    # Function to parse and normalize the value, handling units
-    def parse_value(value):
-        match = re.match(r'(\d+)(.*)', value)
-        if match:
-            return int(match.group(1)), match.group(2)  # Return numeric part and unit
-        return value, ''
-
-    # Parse the input string into the dictionary
-    for part in padding_str.split():
-        key, value = part.split('-')
-        padding_dict[key] = parse_value(value)
-
-    # Simplify the padding values
-    py = None
-    px = None
-
-    if padding_dict['pt'] and padding_dict['pb'] and padding_dict['pt'] == padding_dict['pb']:
-        py = f"py-{padding_dict['pt'][0]}{padding_dict['pt'][1]}"
-        padding_dict['pt'] = None
-        padding_dict['pb'] = None
-    
-    if padding_dict['pl'] and padding_dict['pr'] and padding_dict['pl'] == padding_dict['pr']:
-        px = f"px-{padding_dict['pl'][0]}{padding_dict['pl'][1]}"
-        padding_dict['pl'] = None
-        padding_dict['pr'] = None
-
-    # Prepare the final simplified string
-    simplified_parts = []
-    if py:
-        simplified_parts.append(py)
-    if px:
-        simplified_parts.append(px)
-    for key, value in padding_dict.items():
-        if value is not None:
-            simplified_parts.append(f"{key}-{value[0]}{value[1]}")
-
-    return ' '.join(simplified_parts)
+    return x
 
 
-def spacing_class(padding_value, top_prefix = 'p', threshold = 0):    
+def spacing_class(padding_value, top_prefix = 'p', threshold = 0, seperator = ""):
     result = ""
     padding_value = padding_value.split(' ')
+    padding_value = simplify_value(padding_value)
     n = len(padding_value)
     
-    prefixes = {0: f"{top_prefix}t", 1: f"{top_prefix}r", 2: f"{top_prefix}b", 3: f"{top_prefix}l"}
+    prefixes = {0: f"{top_prefix}{seperator}t", 1: f"{top_prefix}{seperator}r", 2: f"{top_prefix}{seperator}b", 3: f"{top_prefix}{seperator}l"}
     for i in range(n):
         value = padding_value[i]
         prefix = prefixes[i]
@@ -78,16 +48,13 @@ def spacing_class(padding_value, top_prefix = 'p', threshold = 0):
             prefix = top_prefix
 
         elif n == 2:
-            prefix = f"{top_prefix}y" if i == 0 else f"{top_prefix}x"
+            prefix = f"{top_prefix}{seperator}y" if i == 0 else f"{top_prefix}{seperator}x"
 
         elif n == 3:
-            prefix = f"{top_prefix}x" if i == 1 else prefix
+            prefix = f"{top_prefix}{seperator}x" if i == 1 else prefix
         spacing_class_name = get_spacing_class(value, prefix, threshold)
 
         result += f"{spacing_class_name} "
         
     result = result.strip()
-    print(result)
-    result = simplify_properties(result)
-
     return result

@@ -1,9 +1,7 @@
-import cssutils
+import re
 
-def simplify_css_value(value):
-    properties = f"padding: {value};"
-    sheet = cssutils.parseStyle(properties)
-    simplified_value = sheet['padding']
-    return simplified_value
+value1 = "px-2.5 py-2.5"
+value2 = "pl-2.5 pr-2.5 py-2.5"
+value3 = "px-2.5 pb-2.5 pt-2.5"
+value4 = "pl-2.5 pr-2.5 pb-2.5 pt-2.5"
 
-print(simplify_css_value('12px 12px 12px 12px'))  # Outputs: '10px'
