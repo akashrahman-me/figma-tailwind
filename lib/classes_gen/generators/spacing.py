@@ -1,17 +1,17 @@
-from lib.classes_gen.helper.combined_config import combined_config
-from lib.utils.format_length import format_length
+from lib.classes_gen.theme_mixer import theme_mixer
 from lib.utils.convert_unit import  convert_unit
 from lib.utils.round_with_unit import round_with_unit
 from lib.utils.compare_pixel import compare_pixel
 import re
 
-
-def get_spacing_class(value, prefix, threshold = 0):
+def get_spacing_class(value, prefix, theme_path, threshold = 0):
   if value == '0':
       value = '0px'
 
+  theme = theme_mixer(theme_path)
+
   value = round_with_unit(value)
-  spacing_lists = combined_config['theme']['spacing']
+  spacing_lists = theme['theme']['spacing']
   for spacing_key in spacing_lists:
     rem_value = convert_unit('16px', value, 'px')
     theme_value = convert_unit('16px', spacing_lists[spacing_key], 'px')
@@ -33,7 +33,7 @@ def simplify_value(x):
     return x
 
 
-def spacing_class(padding_value, top_prefix = 'p', threshold = 0, seperator = ""):
+def spacing_class(padding_value, theme_path, top_prefix = 'p', threshold = 0, seperator = ""):
     result = ""
     padding_value = padding_value.split(' ')
     padding_value = simplify_value(padding_value)
@@ -52,7 +52,7 @@ def spacing_class(padding_value, top_prefix = 'p', threshold = 0, seperator = ""
 
         elif n == 3:
             prefix = f"{top_prefix}{seperator}x" if i == 1 else prefix
-        spacing_class_name = get_spacing_class(value, prefix, threshold)
+        spacing_class_name = get_spacing_class(value, prefix, theme_path, threshold)
 
         result += f"{spacing_class_name} "
         

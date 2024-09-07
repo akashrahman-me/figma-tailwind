@@ -7,6 +7,7 @@ import tinycss2
 import re
 import urllib.parse
 from app.classname import class_generate
+from lib.classes_gen.parse_config import remove_occurrences
 
 class FileChangeHandler(FileSystemEventHandler):
     def __init__(self):
@@ -19,18 +20,18 @@ class FileChangeHandler(FileSystemEventHandler):
             if current_time - self.last_modified < 1:  # less than one second
                 return
             self.last_modified = current_time
-            class_generate()
+            class_generate(refer='txt_file')
+
 
     def css_validation(self, css_string):
-        pattern = r'var\([^,]+,\s*([^\)]+)\)'
-        css_string = re.sub(pattern, r'\1', css_string)
-        css_string = urllib.parse.unquote(css_string)
-
+        css_string = remove_occurrences(css_string)
         parsed = tinycss2.parse_declaration_list(css_string)
+
         for decl in parsed:
             if decl.type == 'declaration' and not decl.name.startswith('--'):
                 return True
         return False
+
 
     def on_copy(self):
         clipboard_content = pyperclip.paste()

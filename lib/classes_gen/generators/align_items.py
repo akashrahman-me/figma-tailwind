@@ -1,5 +1,5 @@
-def align_items_class(align_item):
-    align_items = [
+def align_items_class(param, theme_path):
+    params = [
         ['flex-start', 'items-start'],
         ['flex-end', 'items-end'],
         ['center', 'items-center'],
@@ -7,8 +7,9 @@ def align_items_class(align_item):
         ['stretch', 'items-stretch']
     ]
 
-    for pair in align_items:
-        if align_item == pair[0]:
-            return pair[1]
+    for pair in params:
+        value, key = pair
+        if param == value:
+            return key
 
     return ""

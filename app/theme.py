@@ -9,7 +9,6 @@ from lib.theme_gen.generate_font_imports import generate_font_imports
 from lib.theme_gen.box_shadow_sizes import box_shadow_sizes
 from intelligence.colors.classify_and_rank_colors import classify_and_rank_colors
 from intelligence.colors.serialize_colors import serialize_colors
-from lib.echo import echo
 from lib.utils.remove_text_content import remove_text_content
 from lib.theme_gen.convert_tailwind import convert_tailwind
 from lib.theme_gen.font_imports import font_imports

@@ -1,4 +1,4 @@
-def text_transform_class(text_transform_value):
+def text_transform_class(text_transform_value, theme_path):
     text_transform_values = [
         ['uppercase', 'uppercase'],
         ['lowercase', 'lowercase'],

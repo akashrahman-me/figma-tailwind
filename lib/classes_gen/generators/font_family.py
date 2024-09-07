@@ -1,9 +1,10 @@
-from lib.classes_gen.helper.combined_config import combined_config
 import re
+from lib.classes_gen.theme_mixer import theme_mixer
 
-def font_family_class(font_family_value):
-    theme = [combined_config['theme']['extend'].get('fontFamily', {}), \
-            combined_config['theme']['fontFamily']]
+def font_family_class(font_family_value, theme_path):
+    theme = theme_mixer(theme_path)
+
+    theme = [theme['theme']['extend'].get('fontFamily', {}), theme['theme']['fontFamily']]
 
     for font_families in theme:
         # Remove non-alphanumeric characters from the start and end of the string

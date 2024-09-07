@@ -1,6 +1,7 @@
-from lib.classes_gen.helper.combined_config import combined_config
 from lib.classes_gen.format_box_shadow import format_box_shadow
 import cssutils
+from lib.classes_gen.theme_mixer import theme_mixer
+
 
 def parse_box_shadow(css_text):
     sheet = cssutils.parseStyle(f"box-shadow: {css_text};")
@@ -12,9 +13,11 @@ def compare_box_shadows(shadow1, shadow2):
     parsed_shadow2 = parse_box_shadow(shadow2)
     return parsed_shadow1 == parsed_shadow2
 
-def box_shadow_class(box_shadow_value):
-    for box_shadow_key in combined_config['theme']['boxShadow']:
-        theme_shadow = combined_config['theme']['boxShadow'][box_shadow_key]
+def box_shadow_class(box_shadow_value, theme_path):
+    theme = theme_mixer(theme_path)
+
+    for box_shadow_key in theme['theme']['boxShadow']:
+        theme_shadow = theme['theme']['boxShadow'][box_shadow_key]
         if compare_box_shadows(box_shadow_value, theme_shadow):
             return f"shadow-{box_shadow_key}"  # Direct match
 

@@ -1,15 +1,17 @@
-from lib.classes_gen.helper.combined_config import combined_config
+from lib.classes_gen.theme_mixer import theme_mixer
 from lib.utils.round_with_unit import round_with_unit
 from lib.utils.format_length import format_length
 from lib.utils.convert_unit import  convert_unit
 from lib.classes_gen.generators.font_size import font_size_class
 
-def line_height_class(line_height_value, font_size_value):
-    font_size_key = font_size_class(font_size_value, only_key = True)
+def line_height_class(line_height_value, font_size_value, theme_path):
+    font_size_key = font_size_class(font_size_value, theme_path = theme_path,  only_key = True)
     if not font_size_key:
         return ""
+
+    theme = theme_mixer(theme_path)
     
-    font_variants = combined_config['theme']['fontSize'][font_size_key][1]
+    font_variants = theme['theme']['fontSize'][font_size_key][1]
 
     if 'lineHeight' in font_variants:
         theme_line_height = font_variants['lineHeight']

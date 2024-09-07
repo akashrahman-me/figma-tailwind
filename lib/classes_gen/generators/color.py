@@ -1,9 +1,15 @@
-from lib.classes_gen.helper.combined_config import combined_config, theme_colors
+from lib.classes_gen.theme_mixer import theme_mixer
 from lib.utils.to_rgb_color import to_rgb_color
+import json
 
-def color_class(color_value, prefix = 'text'):
+def color_class(color_value, theme_path, prefix = 'text'):
     # Check in both theme.colors and theme.extend.colors
-    theme = [theme_colors, combined_config['theme']['extend'].get('colors', {})]
+    theme = theme_mixer(theme_path)
+
+    with open('../storage/theme_colors.json', 'r') as file:
+        theme_colors = json.load(file)
+
+    theme = [theme_colors, theme['theme']['extend'].get('colors', {})]
 
     color_value = to_rgb_color(color_value)
 

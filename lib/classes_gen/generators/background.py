@@ -1,11 +1,12 @@
 from lib.classes_gen.generators.color import color_class
-from lib.classes_gen.helper.combined_config import combined_config
+from lib.classes_gen.theme_mixer import theme_mixer
 
-def background_class(value):
-   class_name = color_class(value, 'bg')
+def background_class(value, theme_path):
+   theme = theme_mixer(theme_path)
+   class_name = color_class(value, theme_path, 'bg')
 
    if class_name == '' and value != '' :
-      backgrounds = combined_config['theme'].get('backgroundImage', {})
+      backgrounds = theme['theme'].get('backgroundImage', {})
 
       if value is None:
          return ""
