@@ -6,7 +6,7 @@ Please follow the following instruction.
 -  If you see we can get desired output using flex or grid then is flex/grid instead of position absolute.
 -  make sure the code organized, also think about the layout if some class doesn't make any change to the layout or design just remove them.
 -  If you see layout will never problem by using fixed value like width and height then remove it.
--  Please use semantic html el****ements.
+-  Please use semantic html elements.
 -  Make sure it pixel perfect design. By making pixel perfect design, do not use position/absolute just make sure spacing get perfect.
 -  Don't use fixed width/height if really we don't need.
 -  If you see same element multiple time directly map it as we're using react.js and typescript. And if have text content then use it by storing it in a variable.

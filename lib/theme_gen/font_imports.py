@@ -1,13 +1,13 @@
+from lib.theme_gen.generate_font_imports import check_google_fonts_availability
+
 def to_camel_case(snake_str):
     # Convert the string to camelCase
     components = snake_str.split(' ')
     return components[0].lower() + ''.join(x.title() for x in components[1:])
 
 def font_imports(font_families):
-
-    output = 'import {' + ', '.join(
-        name.replace(" ", "_") for name in [item['name'] for item in font_families]) + '} from "next/font/google";\n\n'
-
+    font_families = [item for item in font_families if check_google_fonts_availability(item['name'])]
+    output = 'import {' + ', '.join(  name.replace(" ", "_") for name in [item['name'] for item in font_families]) + '} from "next/font/google";\n\n'
 
     camel_case_names = []
 

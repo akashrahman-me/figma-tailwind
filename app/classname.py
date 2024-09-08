@@ -7,6 +7,7 @@ from lib.classes_gen.generators.background import background_class
 from lib.classes_gen.generators.border import border_class
 from lib.classes_gen.generators.border_radius import border_radius_class
 from lib.classes_gen.generators.box_shadow import box_shadow_class
+from lib.classes_gen.generators.filter import filter_class
 from lib.classes_gen.generators.flex_direction import flex_direction_class
 from lib.classes_gen.generators.font_family import font_family_class
 from lib.classes_gen.generators.font_size import font_size_class
@@ -17,11 +18,13 @@ from lib.classes_gen.generators.letter_spacing import letter_spacing_class
 from lib.classes_gen.generators.line_height import line_height_class
 from lib.classes_gen.generators.display import display_class
 from lib.classes_gen.generators.gap import gap_class
+from lib.classes_gen.generators.position import position_class, top_class, right_class, bottom_class, left_class
 from lib.classes_gen.generators.text_align import text_align_class
 from lib.classes_gen.generators.padding import padding_class
 from lib.classes_gen.generators.align_items import align_items_class
 from lib.classes_gen.generators.opacity import opacity_class
 from lib.classes_gen.generators.margin import margin_class
+from lib.classes_gen.generators.size import width_class, height_class
 from lib.classes_gen.generators.text_transform import text_transform_class
 from lib.classes_gen.parse_config import parse_config
 from lib.utils.css_string_to_properties import css_string_to_properties
@@ -49,6 +52,7 @@ properties = [
     ('border', border_class),
     ('opacity', opacity_class),
     ('backdrop-filter', backdrop_filter_class),
+    ('filter', filter_class),
 
     # Layout
     ('padding', padding_class),
@@ -58,6 +62,14 @@ properties = [
     ('align-items', align_items_class),
     ('justify-content', justify_content_class),
     ('flex-direction', flex_direction_class),
+    ('align-self', flex_direction_class),
+    ('width', width_class),
+    ('height', height_class),
+    ('position', position_class),
+    ('top', top_class),
+    ('right', right_class),
+    ('bottom', bottom_class),
+    ('left', left_class),
 ]
 
 def relevant_valid(class_name, ignore_classes):

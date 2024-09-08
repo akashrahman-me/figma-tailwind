@@ -43,7 +43,7 @@ def serialize_colors(un_serialize_colors):
 
   for name, values in colors.items():
     un_serialize_values = un_serialize_colors.get(name)
-    if(un_serialize_values):
+    if un_serialize_values:
       serialized_values = closest_color_keys(values, list(un_serialize_values.values()))
       result[name] = serialized_values
       

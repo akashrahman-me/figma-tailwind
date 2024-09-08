@@ -53,5 +53,4 @@ def compare_typography(font_size_with_unit, typography, callback=None):
     if callback:
         return callback(typo1, typo2)
     else:
-        # Assuming 'format_length' function exists in Python
         return format_length(f"{typo1}px") == format_length(f"{typo2}px")

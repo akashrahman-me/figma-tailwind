@@ -1,19 +1,27 @@
 import urllib.parse
+import os
+import time
 import requests
 import json
 
-with open('../storage/google_webfonts.json') as f:
-    google_webfonts = json.load(f)
+
+GOOGLE_API_KEY = "AIzaSyDo5jvJTelZomK__xr1wcQ5Z9V13NprnDg"
+GOOGLE_WEBFONTS = '../storage/google_webfonts.json'
 
 def check_google_fonts_availability(font_name):
-    # It's currently disalbed as we don't need freequently update of what font are comes in new cause we've already cloned and locally stored
-    """
-    GOOGLE_API_KEY = "AIzaSyDo5jvJTelZomK__xr1wcQ5Z9V13NprnDg"
-    response = requests.get('https://www.googleapis.com/webfonts/v1/webfonts', params={'key': GOOGLE_API_KEY})
-    fonts_data = response.json()['items']
-    """
+    current_time = time.time()
+    modification_time = os.path.getmtime(GOOGLE_WEBFONTS)
+    time_different = current_time - modification_time
 
-    fonts_data = google_webfonts['items']
+    with open(GOOGLE_WEBFONTS) as f:
+        fonts_data = json.load(f)
+
+    if time_different >= (86400 * 7): # More than 7 day
+        response = requests.get('https://www.googleapis.com/webfonts/v1/webfonts', params={'key': GOOGLE_API_KEY})
+        fonts_data = response.json()['items']
+
+        with open(GOOGLE_WEBFONTS, 'w') as fx:
+            fx.write(json.dumps(fonts_data, indent=4))
 
     font_names = [font['family'] for font in fonts_data]
     return font_name in font_names
@@ -36,8 +44,8 @@ def generate_font_imports(font_data):
             not_available.append(font)
 
     result = {
-        "font_imports": "\n".join(font_imports),
-        "not_available": not_available
+        "font_imports_string": "\n".join(font_imports),
+        "font_not_available": not_available
     }
 
     return result

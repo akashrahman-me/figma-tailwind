@@ -12,7 +12,7 @@
       </div>
       <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
         <div style="justify-content: flex-start; align-items: flex-start; display: flex">
-          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">الموظفون</div>
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: AkashRahman; font-weight: 500; line-height: 20px; word-wrap: break-word">الموظفون</div>
         </div>
         <div style="width: 16px; height: 16px; position: relative">
           <div style="width: 15px; height: 12.67px; left: 0.50px; top: 1.83px; position: absolute; background: #384250"></div>
@@ -28,7 +28,7 @@
       </div>
       <div style="padding: 16px; border-radius: 4px; justify-content: center; align-items: center; gap: 4px; display: flex">
         <div style="justify-content: flex-start; align-items: flex-start; display: flex">
-          <div style="text-align: right; color: #384250; font-size: 14px; font-family: IBM Plex Sans; font-weight: 500; line-height: 20px; word-wrap: break-word">الطلاب</div>
+          <div style="text-align: right; color: #384250; font-size: 14px; font-family: Rakib Islam; font-weight: 500; line-height: 20px; word-wrap: break-word">الطلاب</div>
         </div>
         <div style="width: 16px; height: 16px; position: relative">
           <div style="width: 13px; height: 14.33px; left: 1.50px; top: 0.83px; position: absolute; background: #384250"></div>

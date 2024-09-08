@@ -5,20 +5,20 @@ from lib.utils.compare_pixel import compare_pixel
 import re
 
 def get_spacing_class(value, prefix, theme_path, threshold = 0):
-  if value == '0':
-      value = '0px'
+    if value == '0':
+        value = '0px'
 
-  theme = theme_mixer(theme_path)
+    theme = theme_mixer(theme_path)
 
-  value = round_with_unit(value)
-  spacing_lists = theme['theme']['spacing']
-  for spacing_key in spacing_lists:
-    rem_value = convert_unit('16px', value, 'px')
-    theme_value = convert_unit('16px', spacing_lists[spacing_key], 'px')
-    if compare_pixel(float(rem_value.replace('px', '')), float(theme_value.replace('px', '')), threshold) :
-        return f"{prefix}-{spacing_key}"
+    value = round_with_unit(value)
+    spacing_lists = theme['theme']['spacing']
+    for spacing_key in spacing_lists:
+        rem_value = convert_unit('16px', value, 'px')
+        theme_value = convert_unit('16px', spacing_lists[spacing_key], 'px')
+        if compare_pixel(float(rem_value.replace('px', '')), float(theme_value.replace('px', '')), threshold) :
+            return f"{prefix}-{spacing_key}"
 
-  return f"{prefix}-[{value}]"
+    return f"{prefix}-[{value}]"
 
 def simplify_value(x):
     if all(y == x[0] for y in x):

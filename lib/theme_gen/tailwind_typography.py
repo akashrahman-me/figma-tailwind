@@ -1,13 +1,9 @@
-from collections import defaultdict
 from collections import Counter
-import re
 from lib.utils.round_with_unit import round_with_unit
 from lib.utils.format_length import format_length
 from lib.utils.convert_unit import convert_unit
 from lib.utils.filter_selected_keys import filter_selected_keys
 from lib.utils.get_number import get_number
-import json
-
 
 
 def tailwind_typography(css_object):
@@ -36,8 +32,6 @@ def tailwind_typography(css_object):
             if 'letterSpacing' in obj:
                 ls_value = format_length(obj['letterSpacing'])
                 letter_spacing_counter[ls_value] += 1
-
-        # print(line_height_counter)
 
         max_line_height = line_height_counter.most_common(1)[0][0] if line_height_counter else None
         max_letter_spacing = letter_spacing_counter.most_common(1)[0][0] if letter_spacing_counter else None

@@ -39,6 +39,7 @@ properties = css_object(typography_groups)
 font_sizes = tailwind_typography(properties)
 
 font_weights = font_families(properties)
+font_status = generate_font_imports(font_weights)
 font_family = format_font_families(font_weights)
 
 # Prepare the theme dictionary
@@ -48,6 +49,7 @@ themeing = {
     "boxShadow": shadows,
     "fontFamily": font_family,
     "fontWeights": font_weights,
+    "fontUnavailable": font_status['font_not_available']
 }
 
 # Write the theme dictionary to a JSON file

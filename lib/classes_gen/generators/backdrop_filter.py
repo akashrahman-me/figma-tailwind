@@ -6,7 +6,7 @@ def parse_object(value):
     matches = re.findall(pattern, value)
     return {key: value for key, value in matches}
 
-def backdrop_filter_class(backdrop_filter_value, theme_path):
+def backdrop_filter_class(backdrop_filter_value, theme_path, prefix = 'backdrop'):
     theme = theme_mixer(theme_path)
 
     # Define a mapping of CSS filter functions to their respective theme configurations
@@ -32,7 +32,7 @@ def backdrop_filter_class(backdrop_filter_value, theme_path):
             for theme_values in theme_values_list:
                 for k, v in theme_values.items():
                     if value == v:
-                        result += f"backdrop-{key}-{k} "
+                        result += f"{prefix}-{key}-{k} "
                         nf = False
                         break
                 if not nf:  # Exit outer loop if a match is found
@@ -40,6 +40,6 @@ def backdrop_filter_class(backdrop_filter_value, theme_path):
 
             # If no match is found, use the custom format
             if nf:
-                result += f"backdrop-{key}-[{value}] "
+                result += f"{prefix}-{key}-[{value}] "
 
     return result.strip()  # Remove any trailing spaces

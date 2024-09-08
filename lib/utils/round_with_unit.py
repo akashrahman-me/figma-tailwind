@@ -9,7 +9,7 @@ def round_with_unit(value):
         return value
 
     # Regular expression to separate the number from the unit
-    regex = r"^(\d*\.?\d+)([a-z%]*)$"
+    regex = r"^(-?\d*\.?\d+)([a-z%]*)$"
 
     # Execute the regular expression
     match = re.match(regex, value)

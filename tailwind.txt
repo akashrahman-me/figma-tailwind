@@ -2,4 +2,10 @@ D:/Endeavors/e-service/tailwind.config.ts
 text-left text-gray-950 font-normal font-ibm-plex-sans items-start px-0 my-0 mx-0 m-0 p-0 gap-0 py-0
 
 
-flex-direction: row
+width: 104px;
+height: 17px;
+position: absolute;
+top: 4px;
+left: 4px;
+right: 4px;
+bottom: 4px;
